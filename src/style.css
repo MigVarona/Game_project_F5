@@ -14,8 +14,9 @@
 .card {
     z-index: 999;
     position: absolute;
-    left: 500px;
+    left: 50%;
     top: 400px;
+    transform: translateX(-50%);
     
 }
 
@@ -23,7 +24,19 @@
     
         z-index: 999;
         position: absolute;
-        left: 900px;
+        left: 50%;
         top: 500px;
+        transform: translateX(-50%);
+        
+    }
+
+    .menu {
+
+        z-index: 999;
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 200px;
         
     }
