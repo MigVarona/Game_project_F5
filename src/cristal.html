@@ -25,7 +25,9 @@
         <source type="video/mp4" src="assets/360.mp4">
       </video>
 
-      
+      <svg id="playButton" type="button" xmlns="http://www.w3.org/2000/svg" fill="none"  viewBox="0 0 24 24" strokeWidth="3" stroke="currentColor" onclick="hideButton()" class="botonp w-14 h-14">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z" />
+      </svg>
 
       <nav class="bar fixed inset-x-0 top-0  bg-gray-950 shadow z-50 dark:bg-gray-50">
         <div class=" w-full max-w-7xl mx-auto">
@@ -34,7 +36,7 @@
               
               <span class="sr-only">Company</span>
             </a>
-            <nav class="hidden gap-6 space-x-2 md:flex">
+            <nav class="gap-6 space-x-2 md:flex">
               <a class="inline-block h-6 w-max text-sm font-semibold tracking-wide uppercase peer relative" href="index.html">
                 Home
                 <span class="absolute inset-x-0 bottom-0 h-0.5 bg-gray-950 peer-hover:bg-gray-50 transition-all duration-300 ease-in-out"></span>
@@ -61,6 +63,11 @@
       function startVideo() {
         var video = document.getElementById('video');
         video.play();
+      }
+
+      function hideButton() {
+        var button = document.getElementById('playButton');
+        button.classList.add('hidden');
       }
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
