@@ -17,8 +17,14 @@
     left: 50%;
     top: 400px;
     transform: translateX(-50%);
-    
-}
+  
+    @media (max-width: 768px) {
+      left: 50%;
+      top: 50%; 
+      transform: translate(-50%, -50%);
+      width: 80%; 
+    }
+  }
 
 .botonp {
     
@@ -27,6 +33,14 @@
         left: 50%;
         top: 500px;
         transform: translateX(-50%);
+
+        @media (max-width: 768px) {
+            left: 50%;
+            top: 50%; 
+            transform: translate(-50%, -50%);
+            margin-top: 75px;
+             
+          }
         
     }
 
