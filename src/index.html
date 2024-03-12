@@ -22,6 +22,49 @@
       <video  id="video" loop crossorigin="anonymous" webkit-playsinline="true" playsinline="true" onloadedmetadata="this.currentTime=0">
         <source type="video/mp4" src="assets/video2.mp4">
       </video>
+      
+      <a-entity
+      class="puerta_alcala"
+      position="0.43 2.4 2"
+      z-index: 999;
+      gltf-model="assets/puerta_de_alcala_de_madrid.glb"
+      scale="0.2 0.2 0.2"
+    >
+    </a-entity>
+
+      <a-entity line="start: 0 1 0; end: 2 0 -5; color: red"
+      line__2="start: -2 4 5; end: 0 4 -3; color: green"></a-entity>
+
+      <button
+      style="
+      margin: 0;
+      overflow: hidden;
+      position: absolute;
+      width: 100%;
+      z-index: 999;
+      height: 2px; 
+      background-color: #ffffff; 
+      border: 0px;
+      top: 50%;
+      "
+    ></button>
+      
+      <button
+      style="
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 999;
+        background-color: transparent;
+        border: 1px solid #1ad242; 
+        color: #1ad242; 
+        padding: 10px; 
+      "
+    >
+    Discovering El Retiro
+    </button>
+
+
     </a-scene>
     
 
