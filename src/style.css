@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.alternative {
+    z-index: 999;
+    position: absolute;
+    left: 100px;
+    top: 30px;
+    
+   
+}
+
+.card {
+    z-index: 999;
+    position: absolute;
+    left: 500px;
+    top: 400px;
+    
+}
+
+.botonp {
+    
+        z-index: 999;
+        position: absolute;
+        left: 900px;
+        top: 500px;
+        
+    }
