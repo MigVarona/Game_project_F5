@@ -45,7 +45,6 @@ transform: translateX(-50%);
   }
 
 .botonp {
-    
         z-index: 999;
         position: absolute;
         left: 50%;
@@ -72,3 +71,7 @@ transform: translateX(-50%);
         height: 200px;
         
     }
+
+    .hidden {
+      display: none;
+  }
