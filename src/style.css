@@ -11,6 +11,24 @@
    
 }
 
+.bar {
+
+  z-index: 999;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+transform: translateX(-50%);
+
+  @media (max-width: 768px) {
+    left: 50%;
+    width: 80%; 
+    transform: translate(-50%);
+    
+  }
+}
+
+
+
 .card {
     z-index: 999;
     position: absolute;
