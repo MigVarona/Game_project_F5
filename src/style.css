@@ -1,46 +1,11 @@
 
 
-.alternative {
-    z-index: 999;
-    position: absolute;
-    left: 100px;
-    top: 30px;
-    
-   
-}
-
-.bar {
-
-  z-index: 999;
-  position: absolute;
-  top: 30px;
-  left: 50%;
-transform: translateX(-50%);
-
-  @media (max-width: 768px) {
-    left: 50%;
-    width: 80%; 
-    transform: translate(-50%);
-    
-  }
-}
 
 
 
-.card {
-    z-index: 999;
-    position: absolute;
-    left: 50%;
-    top: 400px;
-    transform: translateX(-50%);
-  
-    @media (max-width: 768px) {
-      left: 50%;
-      top: 50%; 
-      transform: translate(-50%, -50%);
-      width: 80%; 
-    }
-  }
+
+
+
 
 .botonp {
         z-index: 999;
@@ -59,16 +24,6 @@ transform: translateX(-50%);
         
     }
 
-    .menu {
-
-        z-index: 999;
-        position: absolute;
-        bottom: 10px;
-        left: 50%;
-        transform: translateX(-50%);
-        height: 200px;
-        
-    }
 
     .hidden {
       display: none;
