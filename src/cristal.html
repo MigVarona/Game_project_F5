@@ -1,52 +1,86 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Video 360 en A-Frame</title>
+
+<head>
+  <meta charset="utf-8">
+  <title>Video 360 en A-Frame</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="input.css">
+</head>
+
+<body>
+  <a-scene onclick="startVideo()">
+    <!-- Cámara para la realidad virtual -->
+    <a-entity position="0 1.6 0">
+      <a-camera></a-camera>
+    </a-entity>
+
+    <!-- Video 360 -->
+    <a-videosphere src="#video" rotation="0 180 0"></a-videosphere>
+
+    <!-- Fuente del video -->
+    <video id="video" loop crossorigin="anonymous" webkit-playsinline="true" playsinline="true"
+      onloadedmetadata="this.currentTime=0">
+      <source type="video/mp4" src="assets/360.mp4">
+    </video>
+
+    <svg id="playButton" type="button" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+      strokeWidth="3" stroke="currentColor" onclick="hideButton()" class="botonp w-14 h-14">
+      <path strokeLinecap="round" strokeLinejoin="round"
+        d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z" />
+    </svg>
+
+   
     
-
-    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
-    <link href="./output.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="input.css">
-  </head>
-  <body>
-    <a-scene onclick="startVideo()">
-      <!-- Cámara para la realidad virtual -->
-      <a-entity position="0 1.6 0">
-        <a-camera></a-camera>
-      </a-entity>
-
-      <!-- Video 360 -->
-      <a-videosphere src="#video" rotation="0 180 0"></a-videosphere>
-
-      <!-- Fuente del video -->
-      <video  id="video" loop crossorigin="anonymous" webkit-playsinline="true" playsinline="true" onloadedmetadata="this.currentTime=0">
-        <source type="video/mp4" src="assets/360.mp4">
-      </video>
-
-      <svg id="playButton" type="button" xmlns="http://www.w3.org/2000/svg" fill="none"  viewBox="0 0 24 24" strokeWidth="3" stroke="currentColor" onclick="hideButton()" class="botonp w-14 h-14">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z" />
-      </svg>
-
+      <header class="nab absolute inset-x-0 top-0 z-50">
+        <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+          <div class="flex lg:flex-1">
+            <a href="#" class="-m-1.5 p-1.5">
+              <span class="sr-only">Your Company</span>
+              <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="">
+            </a>
+          </div>
+          
+          <div class=" lg:flex lg:gap-x-12">
+            <a href="index.html" class="text-sm font-semibold leading-6 text-gray-900">Home</a>
+            <a href="cristal.html" class="text-sm font-semibold leading-6 text-gray-900">Cristal</a>
+            <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Marketplace</a>
+            <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Company</a>
+          </div>
+          <div class=" lg:flex lg:flex-1 lg:justify-end">
+            <a href="login.html" class="text-sm font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </nav>
+        
       
-  
-     
-
-    </a-scene>
-
-    <script>
-      function startVideo() {
-        var video = document.getElementById('video');
-        video.play();
-      }
-
-      function hideButton() {
-        var button = document.getElementById('playButton');
-        button.classList.add('hidden');
-      }
-    </script>
+      </header>
+    
+ 
     
 
-  </body>
+
+  </a-scene>
+
+  <script>
+    function startVideo() {
+      var video = document.getElementById('video');
+      video.play();
+    }
+
+    function hideButton() {
+      var button = document.getElementById('playButton');
+      button.classList.add('hidden');
+    }
+
+    
+  </script>
+
+
+</body>
+
 </html>
