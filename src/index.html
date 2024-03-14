@@ -4,17 +4,22 @@
 <meta charset="utf-8">
 <title>Video 360 en A-Frame</title>
 
-<script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
 <link href="./output.css" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
 
 <style>
-  .hidden {
-      display: none;
+  /* Opcional: Estilo personalizado para el contenedor del video */
+  .video-container {
+    /* Asegúrate de que el contenedor ocupe el 100% de la altura de la ventana */
+    height: 100vh;
   }
 </style>
+
 </head>
 <body>
-
+  <div data-testid="hero-container" class="relative w-full video-container">
+    <video class="w-full h-full object-cover" autoPlay muted loop>
+      <source src="assets/Video_8.mp4" type="video/mp4" />
+    </video>
+  </div>
 </body>
 </html>
