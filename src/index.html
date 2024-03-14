@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <title>Video 360 en A-Frame</title>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+
 <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
 <link href="./output.css" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="input.css">
+
 <style>
   .hidden {
       display: none;
@@ -15,65 +15,6 @@
 </style>
 </head>
 <body>
-<a-scene onclick="startVideo()">
-  <!-- Cámara para la realidad virtual -->
-  <a-entity position="0 1.6 0">
-    <a-camera></a-camera>
-  </a-entity>
 
-  <!-- Video 360 -->
-  <a-videosphere src="#video" rotation="0 180 0"></a-videosphere>
-
-  <!-- Fuente del video -->
-  <video  id="video" loop crossorigin="anonymous" webkit-playsinline="true" playsinline="true" onloadedmetadata="this.currentTime=0">
-    <source type="video/mp4" src="assets/video2.mp4">
-  </video>
-
-  <h1 id="heading" class="card mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">Conoce los rincones de el</span> Retiro.</h1>
-  <button id="playButton" type="button" class="botonp py-2.5 px-5 left-10 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700" onclick="hideElements()">Play</button>
-  
-  <nav class="bar fixed inset-x-0 top-0  bg-gray-950 shadow z-50 dark:bg-gray-50">
-    <div class=" w-full max-w-7xl mx-auto">
-      <div class="flex items-center justify-between h-14 px-4 md:px-6">
-        <a class="flex items-center" href="#">
-          <span class="sr-only">Company</span>
-        </a>
-        <nav class="gap-6 space-x-2 md:flex">
-          <a class="inline-block h-6 w-max text-sm font-semibold tracking-wide uppercase peer relative" href="index.html">
-            Home
-            <span class="absolute inset-x-0 bottom-0 h-0.5 bg-gray-950 peer-hover:bg-gray-50 transition-all duration-300 ease-in-out"></span>
-          </a>
-          <a class="inline-block h-6 w-max text-sm font-semibold tracking-wide uppercase peer relative" href="#">
-            Embarcadero
-            <span class="absolute inset-x-0 bottom-0 h-0.5 bg-gray-950 peer-hover:bg-gray-50 transition-all duration-300 ease-in-out"></span>
-          </a>
-          <a class="inline-block h-6 w-max text-sm font-semibold tracking-wide uppercase peer relative" href="cristal.html">
-            Palacio
-            <span class="absolute inset-x-0 bottom-0 h-0.5 bg-gray-950 peer-hover:bg-gray-50 transition-all duration-300 ease-in-out"></span>
-          </a>
-          <a class="inline-block h-6 w-max text-sm font-semibold tracking-wide uppercase peer relative" href="#">
-            Pricing
-            <span class="absolute inset-x-0 bottom-0 h-0.5 bg-gray-950 peer-hover:bg-gray-50 transition-all duration-300 ease-in-out"></span>
-          </a>
-        </nav>
-      </div>
-    </div>
-  </nav>
-</a-scene>
-
-<script>
-  function startVideo() {
-    var video = document.getElementById('video');
-    video.play();
-  }
-
-  function hideElements() {
-    var button = document.getElementById('playButton');
-    var heading = document.getElementById('heading');
-    button.classList.add('hidden');
-    heading.classList.add('hidden');
-  }
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
 </body>
 </html>
