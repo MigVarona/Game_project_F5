@@ -1,52 +1,146 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Video 360 en A-Frame</title>
+
+<head>
+  <meta charset="utf-8">
+  <title>Video 360 en A-Frame</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="input.css">
+</head>
+
+<body>
+  <a-scene onclick="startVideo()">
+    <!-- Cámara para la realidad virtual -->
+    <a-entity position="0 1.6 0">
+      <a-camera></a-camera>
+    </a-entity>
+
+    <!-- Video 360 -->
+    <a-videosphere src="#video" rotation="0 180 0"></a-videosphere>
+
+    <!-- Fuente del video -->
+    <video id="video" loop crossorigin="anonymous" webkit-playsinline="true" playsinline="true"
+      onloadedmetadata="this.currentTime=0">
+      <source type="video/mp4" src="assets/360.mp4">
+    </video>
+
+    <svg id="playButton" type="button" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+      strokeWidth="3" stroke="currentColor" onclick="hideButton()" class="botonp w-14 h-14">
+      <path strokeLinecap="round" strokeLinejoin="round"
+        d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z" />
+    </svg>
+
+   
+    
+   
+        
+    
+    <header class="nab absolute inset-x-0 top-0 z-50">
+      <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+        <div class="flex lg:flex-1">
+          <a href="#" class="-m-1.5 p-1.5">
+            <span class="sr-only">Your Company</span>
+            <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="">
+          </a>
+        </div>
+        <div class="flex lg:hidden">
+          <button id="openMenuButton" type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+            <span class="sr-only">Open main menu</span>
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </button>
+        </div>
+        <div class="hidden lg:flex lg:gap-x-12">
+          <a href="index.html" class="text-sm font-semibold leading-6 text-gray-900">Home</a>
+          <a href="cristal.html" class="text-sm font-semibold leading-6 text-gray-900">Cristal</a>
+          <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Embarcadero</a>
+          <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Angel</a>
+        </div>
+        <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+          <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
+        </div>
+      </nav>
+      <!-- Mobile menu, show/hide based on menu open state. -->
+      <div id="mobileMenu" class="lg:hidden fixed inset-0 z-50 hidden" role="dialog" aria-modal="true">
+        <!-- Background backdrop, show/hide based on slide-over state. -->
+        <div class="fixed inset-0 z-40" id="backdrop"></div>
+        <div class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+          <div class="flex items-center justify-between">
+            <a href="#" class="-m-1.5 p-1.5">
+              <span class="sr-only">Your Company</span>
+              <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="">
+            </a>
+            <button id="closeMenuButton" type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+              <span class="sr-only">Close menu</span>
+              <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+          <div class="mt-6 flow-root">
+            <div class="-my-6 divide-y divide-gray-500/10">
+              <div class="space-y-2 py-6">
+                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Product</a>
+                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Features</a>
+                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Marketplace</a>
+                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Company</a>
+              </div>
+              <div class="py-6">
+                <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log in</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+ 
     
 
-    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
-    <link href="./output.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="input.css">
-  </head>
-  <body>
-    <a-scene onclick="startVideo()">
-      <!-- Cámara para la realidad virtual -->
-      <a-entity position="0 1.6 0">
-        <a-camera></a-camera>
-      </a-entity>
 
-      <!-- Video 360 -->
-      <a-videosphere src="#video" rotation="0 180 0"></a-videosphere>
+  </a-scene>
 
-      <!-- Fuente del video -->
-      <video  id="video" loop crossorigin="anonymous" webkit-playsinline="true" playsinline="true" onloadedmetadata="this.currentTime=0">
-        <source type="video/mp4" src="assets/360.mp4">
-      </video>
+  <script>
+    function startVideo() {
+      var video = document.getElementById('video');
+      video.play();
+    }
 
-      <svg id="playButton" type="button" xmlns="http://www.w3.org/2000/svg" fill="none"  viewBox="0 0 24 24" strokeWidth="3" stroke="currentColor" onclick="hideButton()" class="botonp w-14 h-14">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z" />
-      </svg>
+    function hideButton() {
+      var button = document.getElementById('playButton');
+      button.classList.add('hidden');
+    }
 
-      
-  
-     
+    const openMenuButton = document.getElementById('openMenuButton');
+  const closeMenuButton = document.getElementById('closeMenuButton');
+  const mobileMenu = document.getElementById('mobileMenu');
+  const backdrop = document.getElementById('backdrop');
 
-    </a-scene>
+  openMenuButton.addEventListener('click', () => {
+    mobileMenu.classList.remove('hidden');
+    backdrop.classList.remove('hidden');
+  });
 
-    <script>
-      function startVideo() {
-        var video = document.getElementById('video');
-        video.play();
-      }
+  closeMenuButton.addEventListener('click', () => {
+    mobileMenu.classList.add('hidden');
+    backdrop.classList.add('hidden');
+  });
 
-      function hideButton() {
-        var button = document.getElementById('playButton');
-        button.classList.add('hidden');
-      }
-    </script>
+  backdrop.addEventListener('click', () => {
+    mobileMenu.classList.add('hidden');
+    backdrop.classList.add('hidden');
+  });
+
     
+  </script>
 
-  </body>
+
+</body>
+
 </html>
