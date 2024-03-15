@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Video 360 en A-Frame</title>
+
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+
+<body>
+  <a-scene>
+    <!-- Video 360 -->
+    <a-videosphere src="#video" rotation="0 180 0"></a-videosphere>
+
+    <!-- Fuente del video -->
+    <video id="video" loop crossorigin="anonymous" webkit-playsinline="true" playsinline="true"
+      onloadedmetadata="this.currentTime=0">
+      <source type="video/mp4" src="assets/360.mp4">
+    </video>
+
+    <!-- Enlace -->
+    <a-link href="index.html">
+        <a-entity position="-2.23469 1.5 -15.12193" image="#thumbJapan" geometry="primitive: circle; segments: 64"
+          material="shader: portal; pano: https://cdn.aframe.io/link-traversal/thumbs/japan.png; side: double">
+        </a-entity>
+        <a-entity text="color: white; align: center; font: kelsonsans; value: japan.html; width: 5" position="0 1.5 0"
+          rotation=""></a-entity>
+      </a-link>
+  </a-scene>
+</body>
+
+</html>
