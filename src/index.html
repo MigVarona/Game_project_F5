@@ -3,9 +3,10 @@
 <head>
 <meta charset="utf-8">
 <title>Video 360 en A-Frame</title>
-
+<link href="../dist/css/animsition.min.css" rel="stylesheet">
 <link href="./output.css" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+
 
 <style>
   .video-container {
@@ -16,13 +17,13 @@
 </style>
 
 </head>
-<body>
-  <div class="relative w-full video-container">
+<body class="bg-black">
+  <div class="relative w-full video-container animsition">
     <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.75)] bg-fixed">
       <div class="flex h-full items-center justify-center">
         <div class="px-6 text-center text-yellow-50 opacity-70 md:px-12">
     
-          <h1 class="mt-2 mb-16  "><a href="cristal.html">
+          <h1 class="mt-2 mb-16  "><a class="animsition-link" href="cristal.html">
             Conoce los rincones de  <br /><span>El Retiro</span>
           </h1>
           
@@ -39,5 +40,13 @@
       <source src="assets/Video_8.mp4" type="video/mp4" />
     </video>
   </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+  <script src="../dist/js/animsition.min.js" charset="utf-8"></script>
+  <script>
+  $(document).ready(function() {
+    $('.animsition').animsition();
+  });
+  </script>
+
 </body>
 </html>
