@@ -11,6 +11,7 @@
   <link href="./output.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
+
   
 
   <script>
@@ -36,15 +37,18 @@
 
 <body class="bg-black ">
   
-
   <a-scene class="" cursor="rayOrigin: mouse" onclick="startVideo()"
   
     <!-- Cámara para la realidad virtual -->
     <a-entity position="0 1.6 0">
       <a-camera></a-camera>
+
     </a-entity>
     <a-image position="2 2.32286 -12" src="assets/angel.webp" mylink="href: index.html" material="" geometry="" scale="4 5 4"></a-image>
     <a-image position="-3 2.32286 -16" src="assets/fotoretiro.webp" mylink="href: index.html" material="" geometry="" scale="4 5 4"></a-image>
+
+
+    <a-entity geometry="primitive: circle" material="src: icon.png" position="-5.88971 1.94225 -5.54576" visible=""></a-entity>
 
     <!-- Video 360 -->
     <a-videosphere src="#video" rotation="0 180 0"></a-videosphere>
@@ -52,7 +56,11 @@
     <!-- Fuente del video -->
     <video id="video" loop crossorigin="anonymous" webkit-playsinline="true" playsinline="true"
       onloadedmetadata="this.currentTime=0">
-      <source type="video/mp4" src="assets/prueba1.mp4">
+
+      <source type="video/mp4" src="assets/monument1.mp4">
+
+      
+
     </video>
 
     <svg id="playButton" type="button" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -61,15 +69,15 @@
         d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z" />
     </svg>
 
+
     
     
-    <header class="nab absolute inset-x-0 top-0 z-50">
-      <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+    <header class="nab mt-4 absolute bg-white opacity-50 inset-x-0 top-0 z-50">
+      <nav class="flex items-center justify-between p-3 lg:px-8" aria-label="Global">
         <div class="flex lg:flex-1">
           <a href="#" class="-m-1.5 p-1.5">
             <span class="sr-only">Your Company</span>
-            <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="">
-          </a>
+            </a>
         </div>
         <div class="flex lg:hidden">
           <button id="openMenuButton" type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
@@ -123,6 +131,7 @@
       </div>
     </header>
     
+    
  
     
 
@@ -163,6 +172,7 @@
 
     
   </script>
+
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
  <script src="../dist/js/animsition.min.js" charset="utf-8"></script>
  <script>
