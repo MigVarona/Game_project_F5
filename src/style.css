@@ -25,7 +25,7 @@ h1 {
   z-index: 999;
   position: absolute;
   fill: white; 
-  top: calc(90.7%); 
+  top: 90.7%; 
   left: 230px; 
   width: 20px; 
   height: 20px; 
@@ -36,7 +36,7 @@ h1 {
   z-index: 999;
   position: absolute;
   fill: white; 
-  top: calc(90.7%); 
+  top: 90.7%; 
   left: 30px; 
   width: 20px; 
   height: 20px; 
@@ -47,7 +47,7 @@ h1 {
   .flecha1 {
     width: 2%;
     height: 2%;
-    top: calc(91.5%); 
+    top: 91.5%; 
     left: 140px; 
     transform: translate(-50%, -50%);
     
@@ -56,7 +56,7 @@ h1 {
   .flecha2 {
     width: 2%;
     height: 2%;
-    top: calc(90.6%); 
+    top: 90.6%; 
     left: 10px; 
     transform: translate(-50%, -50%);
     transform: rotate(180deg);
@@ -133,7 +133,7 @@ h1 {
     @media (max-width: 768px) {
       h2 {
         font-size: 2rem !important; 
-        left: 0px;
+        left: 10px;
       }
     
     }
