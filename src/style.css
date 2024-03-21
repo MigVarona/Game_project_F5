@@ -171,3 +171,25 @@ h1 {
       pointer-events: none; /* Permite que los eventos pasen a través del div */
       /* Color negro con opacidad del 70% */
     }
+
+    .uk-button {
+      z-index: 999;
+      position: absolute;
+      top: 65%;
+      color: white;
+      left: 60px;
+      opacity: 90%;
+    }
+
+    @media (max-width: 768px) {
+      .uk-button {
+         
+        left: 20px;
+      }
+    
+    }
+
+    .uk-modal-full {
+      z-index: 999;
+      position: absolute;
+    }
