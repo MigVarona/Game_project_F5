@@ -39,15 +39,6 @@ h1 {
 }
 
 
-
-
-
-
-
-
-
-
-
 .botonp {
         z-index: 999;
         position: absolute;
@@ -96,11 +87,7 @@ h1 {
 
     }
 
-   
-
-  
-    
-    @media (max-width: 768px) {
+   @media (max-width: 768px) {
       h2 {
         font-size: 2rem !important; 
         left: 20px;
@@ -123,8 +110,7 @@ h1 {
       width: 100%;
       height: 100%;
       background-color: rgba(0, 0, 0, 0.4); 
-      pointer-events: none; /* Permite que los eventos pasen a través del div */
-      /* Color negro con opacidad del 70% */
+      pointer-events: none; 
     }
 
     .uk-button {
