@@ -71,7 +71,7 @@
     <h1 class=" mt-6 nab">Retiro 360</h1>
     <h2 class=""> Embarcadero </h2>
 
-    <div class="flechas text-white gap-4 flex items-center justify-between">
+    <div class="flechas sm:gap-2 text-white gap-4 flex items-center justify-between">
       <svg type="button" xmlns="http://www.w3.org/2000/svg" class="flecha2 justify-start w-5"
         viewBox="0 0 126.667 89.067">
         <path d="M0 50.933h101.201L72.667 79.467l9.466 9.6 44.534-44.534L82.133 0h-.001l-9.465 9.6 27.868 27.867H0z"
@@ -79,13 +79,13 @@
       </svg>
       <h3 class="text-white">ANTERIOR</h3>
       <h3 class="text-white">SIGUIENTE</h3>
-      <svg type="button" xmlns="http://www.w3.org/2000/svg" class="flecha1 justify-start w-5"
+      <svg type="button" xmlns="http://www.w3.org/2000/svg" class="flecha1 justify-start  w-5"
         viewBox="0 0 126.667 89.067">
         <path d="M0 50.933h101.201L72.667 79.467l9.466 9.6 44.534-44.534L82.133 0h-.001l-9.465 9.6 27.868 27.867H0z"
           fill="white"></path>
       </svg>
     </div>
-    
+
     <a class="uk-button uk-button-default" href="#modal-overflow" uk-toggle>Conoce +</a>
     <div id="modal-overflow" uk-modal>
       <div class="uk-modal-dialog">
@@ -127,25 +127,7 @@
       button.classList.add('hidden');
     }
 
-    const openMenuButton = document.getElementById('openMenuButton');
-    const closeMenuButton = document.getElementById('closeMenuButton');
-    const mobileMenu = document.getElementById('mobileMenu');
-    const backdrop = document.getElementById('backdrop');
-
-    openMenuButton.addEventListener('click', () => {
-      mobileMenu.classList.remove('hidden');
-      backdrop.classList.remove('hidden');
-    });
-
-    closeMenuButton.addEventListener('click', () => {
-      mobileMenu.classList.add('hidden');
-      backdrop.classList.add('hidden');
-    });
-
-    backdrop.addEventListener('click', () => {
-      mobileMenu.classList.add('hidden');
-      backdrop.classList.add('hidden');
-    });
+    
   </script>
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/js/uikit.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/js/uikit-icons.min.js"></script>
