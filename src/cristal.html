@@ -16,7 +16,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poiret+One&display=swap" rel="stylesheet">
   
 
   <script>
@@ -43,6 +45,8 @@
 <body class="bg-black ">
   
   <a-scene class="" cursor="rayOrigin: mouse" onclick="startVideo()"
+
+  
   
     <!-- Cámara para la realidad virtual -->
     <a-entity position="0 1.6 0">
@@ -54,17 +58,19 @@
     -->
 
 
+
+
     <!-- Video 360 -->
     <a-videosphere src="#video" rotation="0 180 0"></a-videosphere>
 
     <!-- Plano oscuro para oscurecer el video -->
-
+    <div id="black-overlay"></div>
 
     <!-- Fuente del video -->
     <video id="video" loop crossorigin="anonymous" webkit-playsinline="true" playsinline="true"
       onloadedmetadata="this.currentTime=0">
 
-      <source type="video/mp4" src="assets/monument1.mp4">
+      <source type="video/mp4" src="assets/videos editados 360/Estanque.mp4">
 
       
 
@@ -77,9 +83,9 @@
     </svg>
 
 
-    <h1 class="notable-regular ml-5 mt-4 nab">Retiro 360</h1>
+    <h1 class=" mt-4 nab">Retiro 360</h1>
     
-   <h2 class="font-bold"> Embarcadero </h2>
+   <h2 class=""> Embarcadero </h2>
  
     
 
