@@ -45,7 +45,7 @@
   </script>
 </head>
 
-<body class="bg-black ">
+<body class="bg-black" onload="startVideo()">
   <a-scene class="" cursor="rayOrigin: mouse" onclick="startVideo()" <!-- Cámara para la realidad virtual -->
     <a-entity position="0 1.6 0">
       <a-camera></a-camera>
@@ -63,15 +63,11 @@
       onloadedmetadata="this.currentTime=0">
       <source type="video/mp4" src="assets/videos editados 360/Estanque.mp4">
     </video>
-    <svg id="playButton" type="button" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-      strokeWidth="3" stroke="currentColor" onclick="hideButton()" class="botonp w-14 h-14">
-      <path strokeLinecap="round" strokeLinejoin="round"
-        d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z" />
-    </svg>
+   
     <h1 class=" mt-6 nab">Retiro 360</h1>
     <h2 class=""> Embarcadero </h2>
 
-    <div class="flechas text-white gap-4 flex items-center justify-between">
+    <div class="flechas sm:gap-2 text-white gap-4 flex items-center justify-between">
       <svg type="button" xmlns="http://www.w3.org/2000/svg" class="flecha2 justify-start w-5"
         viewBox="0 0 126.667 89.067">
         <path d="M0 50.933h101.201L72.667 79.467l9.466 9.6 44.534-44.534L82.133 0h-.001l-9.465 9.6 27.868 27.867H0z"
@@ -79,13 +75,13 @@
       </svg>
       <h3 class="text-white">ANTERIOR</h3>
       <h3 class="text-white">SIGUIENTE</h3>
-      <svg type="button" xmlns="http://www.w3.org/2000/svg" class="flecha1 justify-start w-5"
+      <svg type="button" xmlns="http://www.w3.org/2000/svg" class="flecha1 justify-start  w-5"
         viewBox="0 0 126.667 89.067">
         <path d="M0 50.933h101.201L72.667 79.467l9.466 9.6 44.534-44.534L82.133 0h-.001l-9.465 9.6 27.868 27.867H0z"
           fill="white"></path>
       </svg>
     </div>
-    
+
     <a class="uk-button uk-button-default" href="#modal-overflow" uk-toggle>Conoce +</a>
     <div id="modal-overflow" uk-modal>
       <div class="uk-modal-dialog">
@@ -122,30 +118,9 @@
       video.play();
     }
 
-    function hideButton() {
-      var button = document.getElementById('playButton');
-      button.classList.add('hidden');
-    }
+ 
 
-    const openMenuButton = document.getElementById('openMenuButton');
-    const closeMenuButton = document.getElementById('closeMenuButton');
-    const mobileMenu = document.getElementById('mobileMenu');
-    const backdrop = document.getElementById('backdrop');
-
-    openMenuButton.addEventListener('click', () => {
-      mobileMenu.classList.remove('hidden');
-      backdrop.classList.remove('hidden');
-    });
-
-    closeMenuButton.addEventListener('click', () => {
-      mobileMenu.classList.add('hidden');
-      backdrop.classList.add('hidden');
-    });
-
-    backdrop.addEventListener('click', () => {
-      mobileMenu.classList.add('hidden');
-      backdrop.classList.add('hidden');
-    });
+    
   </script>
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/js/uikit.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/js/uikit-icons.min.js"></script>
