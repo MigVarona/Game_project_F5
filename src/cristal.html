@@ -47,8 +47,10 @@
 
 <body class="bg-black" onload="startVideo()">
   <a-scene class="" cursor="rayOrigin: mouse" onclick="startVideo()" <!-- Cámara para la realidad virtual -->
-    <a-entity position="0 1.6 0">
-      <a-camera></a-camera>
+    <a-entity id="camera" position="0 1.6 0">
+      <a-camera>
+        <a-look-controls pitchEnabled="false"></a-look-controls>
+      </a-camera>
     </a-entity>
     <!--<a-image position="2 2.32286 -12" src="assets/angel.webp" mylink="href: index.html" material="" geometry="" scale="4 5 4"></a-image>
     <a-image position="-3 2.32286 -16" src="assets/fotoretiro.webp" mylink="href: index.html" material="" geometry="" scale="4 5 4"></a-image>
@@ -59,10 +61,10 @@
     <div id="black-overlay"></div>
 
     <!-- Fuente del video -->
-    <video id="video" loop crossorigin="anonymous" webkit-playsinline="true" playsinline="true"
-      onloadedmetadata="this.currentTime=0">
+    <video id="video" loop muted crossorigin="anonymous" webkit-playsinline="true" playsinline="true" onloadedmetadata="this.currentTime=0">
       <source type="video/mp4" src="assets/videos editados 360/Estanque.mp4">
     </video>
+    
    
     <h1 class=" mt-6 nab">Retiro 360</h1>
     <h2 class=""> Embarcadero </h2>
