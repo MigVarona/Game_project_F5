@@ -4,14 +4,22 @@
 <head>
   <meta charset="utf-8">
   <title>Video 360 en A-Frame</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/css/uikit.min.css" />
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   <link href="../dist/css/animsition.min.css" rel="stylesheet">
   <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
   <link href="./output.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Notable&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poiret+One&display=swap" rel="stylesheet">
   
 
   <script>
@@ -38,6 +46,8 @@
 <body class="bg-black ">
   
   <a-scene class="" cursor="rayOrigin: mouse" onclick="startVideo()"
+
+  
   
     <!-- Cámara para la realidad virtual -->
     <a-entity position="0 1.6 0">
@@ -49,14 +59,19 @@
     -->
 
 
+
+
     <!-- Video 360 -->
     <a-videosphere src="#video" rotation="0 180 0"></a-videosphere>
+
+    <!-- Plano oscuro para oscurecer el video -->
+    <div id="black-overlay"></div>
 
     <!-- Fuente del video -->
     <video id="video" loop crossorigin="anonymous" webkit-playsinline="true" playsinline="true"
       onloadedmetadata="this.currentTime=0">
 
-      <source type="video/mp4" src="assets/monument1.mp4">
+      <source type="video/mp4" src="assets/videos editados 360/Estanque.mp4">
 
       
 
@@ -69,70 +84,41 @@
     </svg>
 
 
+    <h1 class=" mt-4 nab">Retiro 360</h1>
     
-    
-    <header class="nab mt-4 absolute bg-white opacity-50 inset-x-0 top-0 z-50">
-      <nav class="flex items-center justify-between p-3 lg:px-8" aria-label="Global">
-        <div class="flex lg:flex-1">
-          <a href="#" class="-m-1.5 p-1.5">
-            <span class="sr-only">Your Company</span>
-            </a>
-        </div>
-        <div class="flex lg:hidden">
-          <button id="openMenuButton" type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
-            <span class="sr-only">Open main menu</span>
-            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-            </svg>
-          </button>
-        </div>
-        <div class="hidden lg:flex lg:gap-x-12">
-          <a href="index.html" class="text-sm font-semibold leading-6 text-gray-900">Home</a>
-          <a href="cristal.html" class="text-sm font-semibold leading-6 text-gray-900">Cristal</a>
-          <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Embarcadero</a>
-          <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Angel</a>
-        </div>
-        <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="login.html" class="text-sm font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
-        </div>
-      </nav>
-      <!-- Mobile menu, show/hide based on menu open state. -->
-      <div id="mobileMenu" class="lg:hidden fixed inset-0 z-50 hidden" role="dialog" aria-modal="true">
-        <!-- Background backdrop, show/hide based on slide-over state. -->
-        <div class="fixed inset-0 z-40" id="backdrop"></div>
-        <div class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-          <div class="flex items-center justify-between">
-            <a href="#" class="-m-1.5 p-1.5">
-              <span class="sr-only">Your Company</span>
-              <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="">
-            </a>
-            <button id="closeMenuButton" type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
-              <span class="sr-only">Close menu</span>
-              <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            </button>
-          </div>
-          <div class="mt-6 flow-root">
-            <div class="-my-6 divide-y divide-gray-500/10">
-              <div class="space-y-2 py-6">
-                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Product</a>
-                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Features</a>
-                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Marketplace</a>
-                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Company</a>
-              </div>
-              <div class="py-6">
-                <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log in</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-    
-    
+   <h2 class=""> Embarcadero </h2>
  
     
+ 
+
+   <a class="uk-button uk-button-default" href="#modal-overflow" uk-toggle>Conoce +</a>
+
+   <div id="modal-overflow" uk-modal>
+       <div class="uk-modal-dialog">
+   
+           <button class="uk-modal-close-default" type="button" uk-close></button>
+   
+         
+   
+           <div class="uk-modal-body" uk-overflow-auto>
+   
+               <p>El Estanque del Retiro es uno de los elementos más emblemáticos y queridos del Parque del Buen Retiro, situado en Madrid, España. Este parque, que abarca aproximadamente 125 hectáreas en el corazón de la ciudad, es uno de los pulmones verdes más importantes de Madrid y un lugar de esparcimiento y recreación para residentes y visitantes por igual.</p><br>
+   
+               <p>El Estanque del Retiro es una característica central del parque y tiene una historia rica y fascinante que se remonta al siglo XVII. Originalmente, el estanque fue concebido como un elemento ornamental para el Palacio del Buen Retiro, que fue construido durante el reinado de Felipe IV en el siglo XVII. Este palacio fue utilizado como residencia de la realeza española hasta el siglo XIX.</p><br>
+   
+               <p>En el centro del estanque, se encuentra una impresionante estatua de bronce conocida como el "Ángel Caído", que representa al demonio Lucifer siendo arrojado del cielo. Esta estatua fue creada por el escultor Ricardo Bellver en el siglo XIX y se ha convertido en una atracción destacada del estanque.</p> <br>
+   
+               <p>El estanque no solo es un elemento decorativo, sino que también ofrece actividades recreativas para los visitantes. Los turistas y lugareños pueden alquilar barcos de remo y pasear por las tranquilas aguas del estanque, disfrutando de las vistas panorámicas del parque y de los monumentos que lo rodean.</p><br>
+   
+               <p>Además de su belleza escénica y su importancia histórica, el Estanque del Retiro también es un lugar de encuentro social y cultural. Durante todo el año, se realizan eventos culturales, conciertos al aire libre y festivales en sus inmediaciones, atrayendo a personas de todas las edades y orígenes.</p><br>
+   
+               
+           </div>
+   
+           
+   
+       </div>
+   </div>
 
 
   </a-scene>
@@ -171,7 +157,8 @@
 
     
   </script>
-
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/js/uikit-icons.min.js"></script>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
  <script src="../dist/js/animsition.min.js" charset="utf-8"></script>
  <script>
