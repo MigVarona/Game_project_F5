@@ -19,49 +19,27 @@ h1 {
 }
 
 
-
-
-.flecha1 {
+.flechas {
   z-index: 999;
   position: absolute;
-  fill: white; 
-  top: 90.7%; 
-  left: 230px; 
-  width: 20px; 
-  height: 20px; 
-  transform: rotate();
-}
+  left: 60px;
+  font-family: "Oswald", sans-serif;
+  top: 90%;
+  color: white !important;
+  font-size: 1rem;
+  opacity: 90%;
 
-.flecha2 {
-  z-index: 999;
-  position: absolute;
-  fill: white; 
-  top: 90.7%; 
-  left: 30px; 
-  width: 20px; 
-  height: 20px; 
-  transform: rotate(180deg);
-}
 
-@media (max-width: 768px) {
-  .flecha1 {
-    width: 2%;
-    height: 2%;
-    top: 91.5%; 
-    left: 140px; 
-    transform: translate(-50%, -50%);
-    
-  }
   
-  .flecha2 {
-    width: 2%;
-    height: 2%;
-    top: 90.6%; 
-    left: 10px; 
-    transform: translate(-50%, -50%);
-    transform: rotate(180deg);
-  }
+        
+  
+        
 }
+
+
+
+
+
 
 
 
@@ -86,6 +64,16 @@ h1 {
     }
 
 
+.flecha1 {
+  z-index: 999;
+ 
+  
+}
+
+.flecha2 {
+  transform: rotate(180deg);
+}
+
 
 
  .nab{
@@ -106,27 +94,7 @@ h1 {
 
     }
 
-    h3.ant {
-      z-index: 999;
-      position: absolute;
-      top: calc(84% + 3rem); 
-      color: white;
-      left: 70px; 
-      font-size: 1rem !important;
-      font-family: "Oswald", sans-serif;
-      opacity: 90%;
-    }
-
-    h3.sig {
-      z-index: 999;
-      position: absolute;
-      top: calc(84% + 3rem); 
-      color: white;
-      left: 150px; 
-      font-size: 1rem !important;
-      font-family: "Oswald", sans-serif;
-      opacity: 90%;
-    }
+   
 
   
     
@@ -138,21 +106,7 @@ h1 {
     
     }
 
-    @media (max-width: 768px) {
-      h3.ant {
-        font-size: 0.7rem !important; 
-        left: 30px;
-      }
-    
-    }
-
-    @media (max-width: 768px) {
-      h3.sig {
-        font-size: 0.7rem !important; 
-        left: 85px;
-      }
-    
-    }
+  
 
     .montserrat {
       font-family: "Montserrat", sans-serif;
