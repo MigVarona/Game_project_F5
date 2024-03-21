@@ -19,53 +19,24 @@ h1 {
 }
 
 
-
-
-.flecha1 {
+.flechas {
   z-index: 999;
   position: absolute;
-  fill: white; 
-  top: calc(90.7%); 
-  left: 230px; 
-  width: 20px; 
-  height: 20px; 
-  transform: rotate();
-}
-
-.flecha2 {
-  z-index: 999;
-  position: absolute;
-  fill: white; 
-  top: calc(90.7%); 
-  left: 30px; 
-  width: 20px; 
-  height: 20px; 
-  transform: rotate(180deg);
+  left: 60px;
+  font-family: "Oswald", sans-serif;
+  top: 90%;
+  color: white !important;
+  font-size: 1rem;
+  opacity: 90%;
 }
 
 @media (max-width: 768px) {
-  .flecha1 {
-    width: 2%;
-    height: 2%;
-    top: calc(91.5%); 
-    left: 140px; 
-    transform: translate(-50%, -50%);
-    
+  .flechas {
+    font-size: 2rem !important; 
+    left: 20px;
   }
-  
-  .flecha2 {
-    width: 2%;
-    height: 2%;
-    top: calc(90.6%); 
-    left: 10px; 
-    transform: translate(-50%, -50%);
-    transform: rotate(180deg);
-  }
+
 }
-
-
-
-
 
 
 .botonp {
@@ -85,6 +56,16 @@ h1 {
         
     }
 
+
+.flecha1 {
+  z-index: 999;
+ 
+  
+}
+
+.flecha2 {
+  transform: rotate(180deg);
+}
 
 
 
@@ -106,53 +87,15 @@ h1 {
 
     }
 
-    h3.ant {
-      z-index: 999;
-      position: absolute;
-      top: calc(84% + 3rem); 
-      color: white;
-      left: 70px; 
-      font-size: 1rem !important;
-      font-family: "Oswald", sans-serif;
-      opacity: 90%;
-    }
-
-    h3.sig {
-      z-index: 999;
-      position: absolute;
-      top: calc(84% + 3rem); 
-      color: white;
-      left: 150px; 
-      font-size: 1rem !important;
-      font-family: "Oswald", sans-serif;
-      opacity: 90%;
+   @media (max-width: 768px) {
+      h2 {
+        font-size: 2rem !important; 
+        left: 20px;
+      }
+    
     }
 
   
-    
-    @media (max-width: 768px) {
-      h2 {
-        font-size: 2rem !important; 
-        left: 0px;
-      }
-    
-    }
-
-    @media (max-width: 768px) {
-      h3.ant {
-        font-size: 0.7rem !important; 
-        left: 30px;
-      }
-    
-    }
-
-    @media (max-width: 768px) {
-      h3.sig {
-        font-size: 0.7rem !important; 
-        left: 85px;
-      }
-    
-    }
 
     .montserrat {
       font-family: "Montserrat", sans-serif;
@@ -167,8 +110,7 @@ h1 {
       width: 100%;
       height: 100%;
       background-color: rgba(0, 0, 0, 0.4); 
-      pointer-events: none; /* Permite que los eventos pasen a través del div */
-      /* Color negro con opacidad del 70% */
+      pointer-events: none; 
     }
 
     .uk-button {
