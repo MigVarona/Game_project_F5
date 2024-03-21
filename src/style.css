@@ -32,8 +32,9 @@ h1 {
 
 @media (max-width: 768px) {
   .flechas {
-
+    font-size: 0.7rem;
     left: 20px;
+    gap: 0.5rem;
   }
 
 }
@@ -87,7 +88,19 @@ h2 {
 
 }
 
+@media (max-width: 768px) {
+  .flecha1  {
+    width: 0.95rem;
+  }
 
+}
+
+@media (max-width: 768px) {
+  .flecha2  {
+    width: 0.95rem;
+  }
+
+}
 
 .montserrat {
   font-family: "Montserrat", sans-serif;
