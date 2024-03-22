@@ -23,7 +23,7 @@ encuentro social y cultural. Durante todo el año, se realizan eventos culturale
 festivales en sus inmediaciones, atrayendo a personas de todas las edades y orígenes.<br><br>
 
 
-## Parque del Buen Retiro 
+## buenretiro
 
 Construido en la primera mitad del siglo xvii dentro del proyecto paisajístico desarrollado 
 para el Palacio del Buen Retiro, una antigua posesión real creada por el conde-duque de Olivares (1587-1645)
@@ -44,9 +44,9 @@ en la Exposición de Filipinas de 1887,es uno de los principales ejemplos de la 
 
 ## Entrada
 En 1865, se abre en El Retiro una nueva calle que une la Puerta de Alcalá con la Ronda de Atocha y la estación de ferrocarril allí existente desde 1851. En la margen Oeste de la calle, se crea así un nuevo barrio en el que hoy encontramos el Museo del Prado, el Botánico, la Academia Española de la Lengua, el Casón del Buen Retiro y la Bolsa, además de otros edificios oficiales o particulares.<br><br>
- Al Este, se construyó una verja de hierro que separó la calle de los jardines. Esta calle, de nombre inicial Calle de Granada, es la actual Calle de Alfonso XII. <br><br>
+Al Este, se construyó una verja de hierro que separó la calle de los jardines. Esta calle, de nombre inicial Calle de Granada, es la actual Calle de Alfonso XII. <br><br>
  
- Se inicia así la construcción de una reja que, junto a las diferentes puertas que se le van añadiendo a lo largo de este siglo y medio, delimitará y cerrará El Retiro.<br><br>
+Se inicia así la construcción de una reja que, junto a las diferentes puertas que se le van añadiendo a lo largo de este siglo y medio, delimitará y cerrará El Retiro.<br><br>
 
 Este es el contenido de la sección 2.
 
@@ -61,3 +61,8 @@ La estructura del Palacio de Cristal está compuesta principalmente por hierro y
 A lo largo de los años, el Palacio de Cristal ha experimentado diversas transformaciones y usos. Después de la Exposición de las Islas Filipinas, se convirtió en un espacio para exposiciones temporales de arte y eventos culturales. A lo largo del siglo XX, ha albergado diversas muestras y exposiciones, mostrando obras de arte contemporáneo y albergando eventos culturales de diversa índole.<br><br>
 
 ## explanada
+Esta puerta fue una de las últimas en instalarse en 1999. Por ella se accede al Paseo de Uruguay y mediante éste llegar a la Rosaleda y a la fuente del Ángel Caído.<br><br>
+Uno de los nueve accesos ubicados a lo largo de la  Calle Menéndez Pelayo<br><br>
+
+## monumento
+
