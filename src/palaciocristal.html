@@ -71,34 +71,34 @@
 
 
     <div id="modal-overflow" uk-modal>
-      <div id="Embarcadero" class="uk-modal-dialog">
+      <div id="cristal" class="uk-modal-dialog">
         <button class="uk-modal-close-default" type="button" uk-close></button>
         <div class="uk-modal-body" uk-overflow-auto>
-          <p id="contenido-embarcadero"></p>
+          <p id="contenido-cristal"></p> <!-- Cambiar aquí -->
         </div>
       </div>
     </div>
-
-  </a-scene>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script>
-    $(document).ready(function () {
-      cargarContenidoMarkdown();
-
-      function cargarContenidoMarkdown() {
-        $.ajax({
-          url: 'contenido.md',
-          success: function (data) {
-            var start = data.indexOf('# Embarcadero');
-            var end = data.indexOf('##', start + 1);
-            var contenido = data.substring(start, end != -1 ? end : data.length).trim();
-            // Eliminar el título '# Embarcadero'
-            contenido = contenido.replace(/^# Embarcadero\s*/gm, '');
-            $('#contenido-embarcadero').html(contenido);
-          }
-        });
-      }
-    });
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        cargarContenidoMarkdown();
+    
+        function cargarContenidoMarkdown() {
+          $.ajax({
+            url: 'contenido.md',
+            success: function (data) {
+              var start = data.indexOf('## cristal');
+              var end = data.indexOf('##', start + 1);
+              var contenido = data.substring(start, end != -1 ? end : data.length).trim();
+              // Eliminar el título '# cristal'
+              contenido = contenido.replace(/^## cristal\s*/gm, '');
+              $('#contenido-cristal').html(contenido);
+            }
+          });
+        }
+      });
+    </script>
 
     function startVideo() {
       var video = document.getElementById('video');
