@@ -40,22 +40,6 @@ h1 {
 }
 
 
-.botonp {
-  z-index: 999;
-  position: absolute;
-  left: 50%;
-  top: 500px;
-  transform: translateX(-50%);
-
-  @media (max-width: 768px) {
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 75px;
-
-  }
-}
-
 .flecha2 {
   transform: rotate(180deg);
 }
@@ -102,11 +86,7 @@ h2 {
 
 }
 
-.montserrat {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
 
-}
 
 #black-overlay {
   position: fixed;
