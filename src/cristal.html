@@ -10,47 +10,29 @@
   <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
   <link href="./output.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Notable&display=swap"
     rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poiret+One&display=swap"
     rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-
-  <script>
-    // component declaration
-    AFRAME.registerComponent("mylink", {
-      // define a url in the schema
-      schema: {
-        href: {}
-      },
-      init: function () {
-        // when clicked - change the location:
-        this.el.addEventListener("click", (e) => {
-          window.location = this.data.href;
-        })
-      }
-    })
-  </script>
+  <style>
+    .a-enter-vr-button {
+      display: none;
+    }
+  </style>
 </head>
 
 <body class="bg-black" onload="startVideo()">
-  <a-scene class="" cursor="rayOrigin: mouse" onclick="startVideo()" <!-- Cámara para la realidad virtual -->
-    <a-entity id="camera" position="0 1.6 0">
-      <a-camera>
-        <a-look-controls pitchEnabled="false"></a-look-controls>
-      </a-camera>
+  <a-scene class="" cursor="rayOrigin: mouse" onclick="startVideo()" <a-entity id="camera" position="0 1.6 0">
+    <a-camera>
+      <a-look-controls pitchEnabled="false"></a-look-controls>
+    </a-camera>
     </a-entity>
     <!--<a-image position="2 2.32286 -12" src="assets/angel.webp" mylink="href: index.html" material="" geometry="" scale="4 5 4"></a-image>
     <a-image position="-3 2.32286 -16" src="assets/fotoretiro.webp" mylink="href: index.html" material="" geometry="" scale="4 5 4"></a-image>
@@ -61,11 +43,12 @@
     <div id="black-overlay"></div>
 
     <!-- Fuente del video -->
-    <video id="video" loop muted crossorigin="anonymous" webkit-playsinline="true" playsinline="true" onloadedmetadata="this.currentTime=0">
+    <video id="video" loop muted crossorigin="anonymous" webkit-playsinline="true" playsinline="true"
+      onloadedmetadata="this.currentTime=0">
       <source type="video/mp4" src="assets/videos editados 360/Estanque.mp4">
     </video>
-    
-   
+
+
     <h1 class=" mt-6 nab">Retiro 360</h1>
     <h2 class=""> Embarcadero </h2>
 
@@ -85,44 +68,42 @@
     </div>
 
     <a class="uk-button uk-button-default" href="#modal-overflow" uk-toggle>Conoce +</a>
+
+
     <div id="modal-overflow" uk-modal>
-      <div class="uk-modal-dialog">
+      <div id="Embarcadero" class="uk-modal-dialog">
         <button class="uk-modal-close-default" type="button" uk-close></button>
         <div class="uk-modal-body" uk-overflow-auto>
-          <p>El Estanque del Retiro es uno de los elementos más emblemáticos y queridos del Parque del Buen Retiro,
-            situado en Madrid, España. Este parque, que abarca aproximadamente 125 hectáreas en el corazón de la ciudad,
-            es uno de los pulmones verdes más importantes de Madrid y un lugar de esparcimiento y recreación para
-            residentes y visitantes por igual.</p><br>
-
-          <p>El Estanque del Retiro es una característica central del parque y tiene una historia rica y fascinante que
-            se remonta al siglo XVII. Originalmente, el estanque fue concebido como un elemento ornamental para el
-            Palacio del Buen Retiro, que fue construido durante el reinado de Felipe IV en el siglo XVII. Este palacio
-            fue utilizado como residencia de la realeza española hasta el siglo XIX.</p><br>
-
-          <p>En el centro del estanque, se encuentra una impresionante estatua de bronce conocida como el "Ángel Caído",
-            que representa al demonio Lucifer siendo arrojado del cielo. Esta estatua fue creada por el escultor Ricardo
-            Bellver en el siglo XIX y se ha convertido en una atracción destacada del estanque.</p> <br>
-
-          <p>El estanque no solo es un elemento decorativo, sino que también ofrece actividades recreativas para los
-            visitantes. Los turistas y lugareños pueden alquilar barcos de remo y pasear por las tranquilas aguas del
-            estanque, disfrutando de las vistas panorámicas del parque y de los monumentos que lo rodean.</p><br>
-
-          <p>Además de su belleza escénica y su importancia histórica, el Estanque del Retiro también es un lugar de
-            encuentro social y cultural. Durante todo el año, se realizan eventos culturales, conciertos al aire libre y
-            festivales en sus inmediaciones, atrayendo a personas de todas las edades y orígenes.</p><br>
+          <p id="contenido-embarcadero"></p>
         </div>
       </div>
     </div>
+
   </a-scene>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script>
+    $(document).ready(function () {
+      cargarContenidoMarkdown();
+
+      function cargarContenidoMarkdown() {
+        $.ajax({
+          url: 'contenido.md',
+          success: function (data) {
+            var start = data.indexOf('# Embarcadero');
+            var end = data.indexOf('##', start + 1);
+            var contenido = data.substring(start, end != -1 ? end : data.length).trim();
+            // Eliminar el título '# Embarcadero'
+            contenido = contenido.replace(/^# Embarcadero\s*/gm, '');
+            $('#contenido-embarcadero').html(contenido);
+          }
+        });
+      }
+    });
+
     function startVideo() {
       var video = document.getElementById('video');
       video.play();
     }
-
- 
-
-    
   </script>
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/js/uikit.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/js/uikit-icons.min.js"></script>
