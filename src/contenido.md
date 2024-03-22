@@ -42,13 +42,16 @@ ambos utilizados actualmente como salas de exposiciones del Museo Reina Sofía.
 El Palacio de Cristal, pabellón romántico creado para dar cabida a una muestra de plantas exóticas 
 en la Exposición de Filipinas de 1887,es uno de los principales ejemplos de la arquitectura del hierro en España<br><br>
 
+
 ## Entrada
+
 En 1865, se abre en El Retiro una nueva calle que une la Puerta de Alcalá con la Ronda de Atocha y la estación de ferrocarril allí existente desde 1851. En la margen Oeste de la calle, se crea así un nuevo barrio en el que hoy encontramos el Museo del Prado, el Botánico, la Academia Española de la Lengua, el Casón del Buen Retiro y la Bolsa, además de otros edificios oficiales o particulares.<br><br>
 Al Este, se construyó una verja de hierro que separó la calle de los jardines. Esta calle, de nombre inicial Calle de Granada, es la actual Calle de Alfonso XII. <br><br>
  
 Se inicia así la construcción de una reja que, junto a las diferentes puertas que se le van añadiendo a lo largo de este siglo y medio, delimitará y cerrará El Retiro.<br><br>
 
 Este es el contenido de la sección 2.
+
 
 ## cristal
 
@@ -60,9 +63,59 @@ La estructura del Palacio de Cristal está compuesta principalmente por hierro y
 
 A lo largo de los años, el Palacio de Cristal ha experimentado diversas transformaciones y usos. Después de la Exposición de las Islas Filipinas, se convirtió en un espacio para exposiciones temporales de arte y eventos culturales. A lo largo del siglo XX, ha albergado diversas muestras y exposiciones, mostrando obras de arte contemporáneo y albergando eventos culturales de diversa índole.<br><br>
 
+
 ## explanada
-Esta puerta fue una de las últimas en instalarse en 1999. Por ella se accede al Paseo de Uruguay y mediante éste llegar a la Rosaleda y a la fuente del Ángel Caído.<br><br>
+
+Esta puerta fue una de las últimas en instalarse en 1999. Por ella se accede al Paseo de Uruguay y mediante éste se puede llegar a la Rosaleda y a la fuente del Ángel Caído.<br><br>
 Uno de los nueve accesos ubicados a lo largo de la  Calle Menéndez Pelayo<br><br>
 
+
 ## monumento
+
+Todo el conjunto mide 30 metros de alto, 86 metros de largo y 58 metros de ancho, y participaron en su elaboración más de veinte escultores, entre los que cabe destacar a Mariano Benlliure, Josep Clarà y Mateo Inurria.<br><br>
+
+En primer término está la estatua ecuestre del rey, fundida en bronce, realizada por Mariano Benlliure en 1904. En el basamento central se encuentran La Paz, de Miguel Blay; La Libertad, de Aniceto Marinas; y El Progreso, de Miguel Ángel Trilles. En el zócalo figuran tres relieves de bronce. <br><br>
+
+Desde el monumento central avanzan unas escalinatas hacia el estanque con cuatro leones de piedra que labraron Agapito Vallmitjana (los dos de los extremos) y Pedro Estany (los dos centrales).Debajo de sus pedestales, en bronce, cuatro sirenas, obra de Antonio Parera, Rafael Atché, Antonio Coll y Antonio Alsina.<br><br>
+
+También hay dos leones con amorcillos en cada uno de los accesos laterales al hemiciclo, obras de Francisco Javier Escudero Lozano, Bofill, Arnau y Campmany. A ambos lados del acceso central en la columnata, El Ejército, de Montserrat, y La Marina, de Mateo Inurria. 
+En la cara interna, frente al estanque, aparecen representadas, en bronce, Las Ciencias, de Fuxá; La Agricultura, de Alcoverro; Las Artes, de Bilbao; y La Industria, de Clará.<br><br>
+
+
+## lagocristal
+
+El lago artificial que da acceso al Palacio de Cristal del Parque del Retiro de Madrid fue construido a la vez que este, que hacía las funciones de invernadero. Tiene contorno irregular y formas redondeadas. Es parte del Paisaje de la Luz, un paisaje cultural declarado Patrimonio de la Humanidad el 25 de julio de 2021.<br><br>
+
+La superficie del estanque es de 2.900 m2 y su volumen de 3.480 m3. El surtidor que se encuentra en el centro del estanque alcanza una altura de 17 m.
+Al pie del Palacio de Cristal existe una escalera que se sumerge dentro del estanque.​ 
+En él se pueden encontrar varios ejemplares de plantas de la especie taxodium distichum, conocidos como cipreses de los pantanos, 
+cuya principal característica es que parte de su tronco y de sus raíces están bajo el agua.<br><br>
+
+El estanque está rodeado de castaños de Indias5​ y también tiene una cascada artificial y una gruta.
+En uno de los laterales del estanque se encuentran tres dados de hormigón del escultor Agustín Ibarrola,que quedaron en ese lugar tras una exposición temporal.<br><br>
+
+
+## angel
+
+Se trata de un gran monumento dedicado a la figura de Lucifer, el ángel caído. 
+Recoge justo el momento de su expulsión del Paraíso, provocada por desobedecer y desafiar a Dios. 
+La escultura capta el momento en el que el espíritu del mal, representado este en forma de serpiente, se introduce en su cuerpo.<br><br>
+
+Fue donado por la Corona a la Villa de Madrid para su ornamentación, si bien con la condición de 
+que se hiciera un bello, digno y adecuado pedestal para la escultura. 
+La ejecución de este corrió a cargo del arquitecto Jareño y Alarcón, quien evaluó el proyecto, construcción, elevación y colocación de la estatua y andamios en 33.648,36 pts, siendo inaugurada en 1885 en las inmediaciones del lugar en el que se asentaba la Fábrica de Porcelana del Buen Retiro. <br><br>
+
+El modelo de la escultura había sido realizado en escayola por el escultor Ricardo Bellver durante su pensionado en Roma, como un homenaje al poema épico de John Milton "El Paraíso Perdido", siendo reconocido su mérito inmediatamente en esta ciudad y llegando a oídos de la Academia de Bellas Artes
+de San Fernando, que propuso al ministro de Estado que se reprodujera en mármol o bronce. <br><br>
+
+El rey Alfonso XII decidió sufragar los gastos de su fundición, facilitando su presentación en la Exposición Nacional de 1878, donde obtuvo la Medalla de Primera Clase, y en la Universal de París del mismo año, siendo allí también muy elogiada. Fue inaugurada en su actual ubicación por la reina regente María Cristina de Habsburgo en 1885.<br><br>
+
+
+## rosaleda
+
+La Rosaleda del Retiro fue diseñada en 1915 por el jardinero Mayor de la Villa, Cecilio Rodríguez, a encargo del alcalde de Madrid Carlos Prast y Rodríguez del Llano.​ Rodríguez se inspiró en la Rosaleda de Bagatelle en el Bois de Boulogne de París para crear la rosaleda, que fue la zona ajardinada más importante que diseñó.​ Se plantaron rosales que llegaron de varios jardines europeos y en el momento de su creación, recibió el nombre de Rosería.<br><br>
+
+En el paraje en el que se ubicó se encontraba un gran invernadero que había pertenecido al marqués de Salamanca. Anteriormente, había un estanque que se convertía en pista de hielo en invierno. La rosaleda fue destruida durante la guerra civil española, siendo replantado 4.000 rosales en 1941. Entre 2001 y 2006, fue completamente restaurada, reponiéndose los rosales envejecidos además de reparar las estructuras metálicas existentes.<br><br>
+
+Se ubica en la zona donde el paseo de Coches se curva hacia el oeste. Tiene una configuración es simétrica, de planta elíptica.​ Cuenta con un par de fuentes en el diámetro mayor de dicha elipse, además de una red de caminos alrededor de la que se distribuyen los parterres.  La rodean diversos setos de boj y cuenta con pérgolas metálicas en forma de arcos.​ Tras su remodelación de 2006, la rosaleda cuenta con 5.570 ejemplares de 130 especies diferentes de rosales bajos y trepadores.​ Sus rosas florecen de mayo a junio<br><br>
 
