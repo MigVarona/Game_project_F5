@@ -30,14 +30,14 @@
 
 <body class="bg-black" onload="startVideo()">
   <a-scene class="" cursor="rayOrigin: mouse" onclick="startVideo()"  id="camera" position="0 1.6 0">
-    <a-camera>
+    <a-camera position="1 20 3">
       <a-look-controls pitchEnabled="false"></a-look-controls>
     </a-camera>
     </a-entity>
     <!--<a-image position="2 2.32286 -12" src="assets/angel.webp" mylink="href: index.html" material="" geometry="" scale="4 5 4"></a-image>
     <a-image position="-3 2.32286 -16" src="assets/fotoretiro.webp" mylink="href: index.html" material="" geometry="" scale="4 5 4"></a-image>
     -->
-    <a-videosphere src="#video" rotation="0 180 0"></a-videosphere>
+    <a-videosphere src="#video" rotation="0 -100 0"></a-videosphere>
 
     <!-- Plano oscuro para oscurecer el video -->
     <div id="black-overlay"></div>
@@ -74,7 +74,7 @@
       <div id="cristal" class="uk-modal-dialog">
         <button class="uk-modal-close-default" type="button" uk-close></button>
         <div class="uk-modal-body" uk-overflow-auto>
-          <p id="contenido-cristal"></p> <!-- Cambiar aquí -->
+          <p id="contenido-cristal"></p> 
         </div>
       </div>
     </div>
@@ -99,6 +99,7 @@
         }
       });
     </script>
+    <script>
 
     function startVideo() {
       var video = document.getElementById('video');
