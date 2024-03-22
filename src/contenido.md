@@ -28,4 +28,12 @@ Este es el contenido de la sección 2.
 
 ## cristal
 
-Este es el contenido de la sección 3.
+El Palacio de Cristal es una estructura emblemática ubicada en el corazón del Parque del Retiro en Madrid, España. Su historia se remonta a finales del siglo XIX, cuando fue construido como parte de la Exposición de las Islas Filipinas, celebrada en 1887.<br><br>
+
+Diseñado por el arquitecto español Ricardo Velázquez Bosco, el Palacio de Cristal fue concebido como un pabellón para albergar una muestra de flora y fauna de Filipinas, que en ese momento eran territorios coloniales de España. Está inspirado en el Crystal Palace de Londres, diseñado por Joseph Paxton, aunque a una escala mucho más pequeña.<br><br>
+
+La estructura del Palacio de Cristal está compuesta principalmente por hierro y cristal, lo que le confiere su aspecto característico y transparente. Destaca por su elegancia neoclásica y su diseño cuidadosamente elaborado, que incluye una impresionante cúpula de cristal.<br><br>
+
+A lo largo de los años, el Palacio de Cristal ha experimentado diversas transformaciones y usos. Después de la Exposición de las Islas Filipinas, se convirtió en un espacio para exposiciones temporales de arte y eventos culturales. A lo largo del siglo XX, ha albergado diversas muestras y exposiciones, mostrando obras de arte contemporáneo y albergando eventos culturales de diversa índole.<br><br>
+
+## explanada
