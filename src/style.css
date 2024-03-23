@@ -112,9 +112,22 @@ h2 {
   .uk-button {
 
     left: 20px;
+   
   }
 
 }
+
+@media (max-width: 768px) {
+  .btnmg {
+
+    margin-top: 30px !important;
+   
+  }
+
+}
+
+
+
 
 .uk-modal-full {
   z-index: 999;

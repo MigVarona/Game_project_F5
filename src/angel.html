@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Video 360 en A-Frame</title>
+  <title>Retiro 360</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/css/uikit.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   <link href="../dist/css/animsition.min.css" rel="stylesheet">
@@ -37,7 +37,7 @@
     <!--<a-image position="2 2.32286 -12" src="assets/angel.webp" mylink="href: index.html" material="" geometry="" scale="4 5 4"></a-image>
     <a-image position="-3 2.32286 -16" src="assets/fotoretiro.webp" mylink="href: index.html" material="" geometry="" scale="4 5 4"></a-image>
     -->
-    <a-videosphere src="#video" rotation="0 180 0"></a-videosphere>
+    <a-videosphere src="#video" rotation="0 270 0"></a-videosphere>
 
     <!-- Plano oscuro para oscurecer el video -->
     <div id="black-overlay"></div>
@@ -50,21 +50,32 @@
 
 
     <h1 class=" mt-6 nab">Retiro 360</h1>
-    <h2 class=""> Fuente del Angel Caido </h2>
+    <h2 class=""> Ángel Caído </h2>
 
     <div class="flechas sm:gap-2 text-white gap-4 flex items-center justify-between">
-      <svg type="button" xmlns="http://www.w3.org/2000/svg" class="flecha2 justify-start w-5"
-        viewBox="0 0 126.667 89.067">
-        <path d="M0 50.933h101.201L72.667 79.467l9.466 9.6 44.534-44.534L82.133 0h-.001l-9.465 9.6 27.868 27.867H0z"
-          fill="white"></path>
-      </svg>
-      <h3 class="text-white">ANTERIOR</h3>
-      <h3 class="text-white">SIGUIENTE</h3>
+
+      <a href="palaciocristal.html" class="text-white flex items-center hover:text-white">
+        <svg type="button" xmlns="http://www.w3.org/2000/svg" class="flecha2 justify-start w-5" viewBox="0 0 126.667 89.067">
+            <path d="M0 50.933h101.201L72.667 79.467l9.466 9.6 44.534-44.534L82.133 0h-.001l-9.465 9.6 27.868 27.867H0z" fill="white"></path>
+        </svg>
+    </a>
+
+    
+    <a href="palaciocristal.html">
+        <h3 class="text-white">PALACIO DE CRISTAL</h3>
+    </a>
+
+    <a href="rosaleda.html">
+      <h3 class="text-white">LA ROSALEDA</h3>
+  </a>
+  <a href="rosaleda.html" class="text-white flex items-center hover:text-white"></a>
       <svg type="button" xmlns="http://www.w3.org/2000/svg" class="flecha1 justify-start  w-5"
         viewBox="0 0 126.667 89.067">
         <path d="M0 50.933h101.201L72.667 79.467l9.466 9.6 44.534-44.534L82.133 0h-.001l-9.465 9.6 27.868 27.867H0z"
           fill="white"></path>
       </svg>
+    </a>
+
     </div>
 
     <a class="uk-button uk-button-default" href="#modal-overflow" uk-toggle>Conoce +</a>
