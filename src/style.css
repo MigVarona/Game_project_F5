@@ -133,3 +133,25 @@ h2 {
   z-index: 999;
   position: absolute;
 }
+
+a:hover h3  {
+  color: #FEA162; 
+  text-decoration: none;
+}
+
+a {
+  color: white;
+  text-decoration: none; /* Quita el subrayado del enlace */
+}
+
+a:hover {
+  text-decoration: none; /* Quita el subrayado del enlace al hacer hover */
+}
+
+a:hover svg path {
+  fill: #FEA162; /* Cambia el color del SVG al hacer hover */
+}
+
+.uk-button:hover {
+  color: #FEA162; 
+}
