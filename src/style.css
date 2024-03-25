@@ -6,9 +6,7 @@ h1 {
   font-weight: 400;
   font-style: normal;
 
-
 }
-
 
 @media (max-width: 768px) {
   h1 {
@@ -17,7 +15,6 @@ h1 {
   }
 
 }
-
 
 .flechas {
   z-index: 999;
@@ -39,12 +36,9 @@ h1 {
 
 }
 
-
 .flecha2 {
   transform: rotate(180deg);
 }
-
-
 
 .nab {
   z-index: 999;
@@ -103,8 +97,6 @@ h4 {
 
 }
 
-
-
 #black-overlay {
   position: fixed;
   z-index: 999;
@@ -142,9 +134,6 @@ h4 {
   }
 
 }
-
-
-
 
 .uk-modal-full {
   z-index: 999;
