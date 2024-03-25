@@ -26,14 +26,12 @@
       display: none;
     }
 
-    .enterARButton{
-      display: none;
-    }
+   
   </style>
 </head>
 
 <body class="bg-black" onload="startVideo()">
-  <a-scene xr-mode-ui="enabled: false" class="" cursor="rayOrigin: mouse" onclick="startVideo()"  id="camera" position="0 1.6 0">
+  <a-scene vr-mode-ui="enabled: false" class="" cursor="rayOrigin: mouse" onclick="startVideo()"  id="camera" position="0 1.6 0">
     <a-camera>
       <a-look-controls pitchEnabled="false"></a-look-controls>
     </a-camera>
