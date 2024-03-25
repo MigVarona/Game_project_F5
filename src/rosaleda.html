@@ -29,7 +29,7 @@
 </head>
 
 <body class="bg-black" onload="startVideo()">
-  <a-scene class="" cursor="rayOrigin: mouse" onclick="startVideo()"  id="camera" position="0 1.6 0">
+  <a-scene vr-mode-ui="enabled: false" class="" cursor="rayOrigin: mouse" onclick="startVideo()"  id="camera" position="0 1.6 0">
     <a-camera>
       <a-look-controls pitchEnabled="false"></a-look-controls>
     </a-camera>
@@ -43,9 +43,10 @@
     <div id="black-overlay"></div>
 
     <!-- Fuente del video -->
-    <video id="video" loop muted crossorigin="anonymous" webkit-playsinline="true" playsinline="true"
+    <video id="video" loop muted autoplay crossorigin="anonymous" webkit-playsinline="true" playsinline="true"
       onloadedmetadata="this.currentTime=0">
       <source type="video/mp4" src="assets/videos editados 360/rosaleda.webm">
+      <source type="video/mp4" src="assets/videos editados 360/rosaleda.mp4">
     </video>
 
 
@@ -84,7 +85,7 @@
     <a class="uk-button uk-button-default" href="#modal-overflow" uk-toggle>Conoce +</a>
 
 
-    <div id="modal-overflow" uk-modal>
+    <div id="modal-overflow" style="opacity: 0.8;" uk-modal>
       <div id="rosaleda" class="uk-modal-dialog">
         <button class="uk-modal-close-default" type="button" uk-close></button>
         <div class="uk-modal-body" uk-overflow-auto>
@@ -122,12 +123,7 @@
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/js/uikit.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/js/uikit-icons.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
-  <script src="../dist/js/animsition.min.js" charset="utf-8"></script>
-  <script>
-    $(document).ready(function () {
-      $('.animsition').animsition();
-    });
-  </script>
+
 </body>
 
 </html>
