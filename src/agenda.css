@@ -28,11 +28,14 @@ h1 {
 }
 
 .custom-hr {
-    
+    width: calc(100% - 50px); /* Reduce el ancho total en 60px */
     height: 1px; 
     background-color: darkgray; 
     border: none; 
+    margin-left: 10px;
+    
 }
+
 
 .actividades {
     margin-left: 20px;
