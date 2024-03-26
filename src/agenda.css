@@ -49,10 +49,24 @@ h1 {
 }
 
 .text-container {
-    max-width: 450px; /* Ajusta este valor según tus necesidades */
+    max-width: 550px; 
     
-    
-}
+    }
+
+button {
+    background-color: white;
+    color: black;
+    border-radius: 10em;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 1em 2em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid black;
+    box-shadow: 0 0 0 0 black;
+  }
+  
+ 
 
 
 
