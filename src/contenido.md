@@ -1,43 +1,17 @@
 # Embarcadero
 
-El Estanque del Retiro es uno de los elementos más emblemáticos y queridos del Parque del Buen Retiro,
-situado en Madrid, España. Este parque, que abarca aproximadamente 125 hectáreas en el corazón de la ciudad,
-es uno de los pulmones verdes más importantes de Madrid y un lugar de esparcimiento y recreación para
-residentes y visitantes por igual.<br><br>
-
-El Estanque del Retiro es una característica central del parque y tiene una historia rica y fascinante que
-se remonta al siglo XVII. Originalmente, el estanque fue concebido como un elemento ornamental para el
-Palacio del Buen Retiro, que fue construido durante el reinado de Felipe IV en el siglo XVII. Este palacio
-fue utilizado como residencia de la realeza española hasta el siglo XIX.<br><br>
-
-En el centro del estanque, se encuentra una impresionante estatua de bronce conocida como el "Ángel Caído",
-que representa al demonio Lucifer siendo arrojado del cielo. Esta estatua fue creada por el escultor Ricardo
-Bellver en el siglo XIX y se ha convertido en una atracción destacada del estanque.
-
-El estanque no solo es un elemento decorativo, sino que también ofrece actividades recreativas para los
-visitantes. Los turistas y lugareños pueden alquilar barcos de remo y pasear por las tranquilas aguas del
-estanque, disfrutando de las vistas panorámicas del parque y de los monumentos que lo rodean.<br><br>
-
-Además de su belleza escénica y su importancia histórica, el Estanque del Retiro también es un lugar de
-encuentro social y cultural. Durante todo el año, se realizan eventos culturales, conciertos al aire libre y
-festivales en sus inmediaciones, atrayendo a personas de todas las edades y orígenes.
+El Estanque Grande del Buen Retiro, conocido popularmente como el Estanque del Retiro, es una extensión de agua de origen artificial, que se encuentra en el Parque del Retiro, en la ciudad española de Madrid.<br><br>
+Fue creado en la primera mitad del siglo xvii como uno de los elementos paisajísticos más relevantes del Buen Retiro, una antigua posesión de la Corona española surgida durante el reinado de Felipe IV (1605-1665). Su titularidad corresponde, desde el año 1868, al Ayuntamiento de Madrid, al igual que los espacios ajardinados sobre los que se conformó el parque público actual.<br><br>
+Con una superficie de 37 240 m² y un volumen de agua de 55 150 m³, dispone de un embarcadero que posibilita la navegación recreativa y la celebración de competiciones de remo y piragüismo. En sus orillas se encuentran el Monumento a Alfonso XII y la Fuente Egipcia.
 
 ## buenretiro
 
 Construido en la primera mitad del siglo xvii dentro del proyecto paisajístico desarrollado
 para el Palacio del Buen Retiro, una antigua posesión real creada por el conde-duque de Olivares (1587-1645)
 para disfrute de Felipe IV (1605-1665),​ de quien era su valido.
-Su uso como parque urbano se remonta a 1767, año en el que Carlos III (1716-1788) permitió la entrada del público a efectos recreativos3​ y, ya definitivamente, a partir de 1868, cuando quedó bajo la
-titularidad del Ayuntamiento de Madrid.<br><br>
-
-Con 125 hectáreas y más de 15 000 árboles, el parque de El Retiro es un remanso verde en el centro de Madrid.Especial atención merecen algunos de sus jardines: el jardín de Vivaces, los jardines de Cecilio Rodríguez (jardines clasicistas con aires andaluces), los jardines del Arquitecto Herrero Palacios,
-la rehabilitada Montaña de los Gatos, la Rosaleda (colección de rosas) y el Parterre Francés con el ahuehuete, el árbol más antiguo de Madrid, del que se dice que podría tener alrededor de 400 años.
-Desde el 25 de julio de 2021, es reconocido, junto al Paseo del Prado, como Patrimonio Mundial de la UNESCO.No es solo uno de los pulmones de Madrid, sino que ofrece también cultura, ocio y deporte a madrileños y visitantes.<br><br>
-
+Su uso como parque urbano se remonta a 1767, año en el que Carlos III (1716-1788) permitió la entrada del público a efectos recreativos3​ y, ya definitivamente, a partir de 1868, cuando quedó bajo latitularidad del Ayuntamiento de Madrid, cuenta Con 125 hectáreas y más de 15 000 árboles.<br><br>
 Entre sus elementos arquitectónicos e históricos más importantes se encuentran: el Estanque Grande,
-que ofrece varias actividades, como barcas de remo, barco y aula solar y la Escuela Municipal de Piragüismo,
-dirigida a niños y jóvenes entre 7 y 17 años; el Palacio de Velázquez y el Palacio de Cristal,
-ambos utilizados actualmente como salas de exposiciones del Museo Reina Sofía.
+que ofrece varias actividades, como barcas de remo, barco y aula solar y la Escuela Municipal de Piragüismo,dirigida a niños y jóvenes entre 7 y 17 años; el Palacio de Velázquez y el Palacio de Cristal,ambos utilizados actualmente como salas de exposiciones del Museo Reina Sofía.
 El Palacio de Cristal, pabellón romántico creado para dar cabida a una muestra de plantas exóticas
 en la Exposición de Filipinas de 1887,es uno de los principales ejemplos de la arquitectura del hierro en España.
 
@@ -55,49 +29,40 @@ Diseñado por el arquitecto español Ricardo Velázquez Bosco, el Palacio de Cri
 
 La estructura del Palacio de Cristal está compuesta principalmente por hierro y cristal, lo que le confiere su aspecto característico y transparente. Destaca por su elegancia neoclásica y su diseño cuidadosamente elaborado, que incluye una impresionante cúpula de cristal.<br><br>
 
-A lo largo de los años, el Palacio de Cristal ha experimentado diversas transformaciones y usos. Después de la Exposición de las Islas Filipinas, se convirtió en un espacio para exposiciones temporales de arte y eventos culturales. A lo largo del siglo XX, ha albergado diversas muestras y exposiciones, mostrando obras de arte contemporáneo y albergando eventos culturales de diversa índole.
-
 ## explanada
 
-Esta puerta fue una de las últimas en instalarse en 1999. Por ella se accede al Paseo de Uruguay y mediante éste se puede llegar a la Rosaleda y a la fuente del Ángel Caído.\
-Uno de los nueve accesos ubicados a lo largo de la  Calle Menéndez Pelayo.
+Esta puerta fue una de las últimas en instalarse en 1999. Por ella se accede al Paseo de Uruguay y mediante éste se puede llegar a la Rosaleda y a la fuente del Ángel Caído.
+Uno de los nueve accesos ubicados a lo largo de la  Calle Menéndez Pelayo.<br><br>
+
+Antes de su construcción, y cuando la circulación de vehiculos estaba permitida, era el paso de vehiculos para cruzar el parque y salir por la puerta del Angel Caído, hacia la Cuesta de Moyano.<br><br>
 
 ## monumento
 
-Todo el conjunto mide 30 metros de alto, 86 metros de largo y 58 metros de ancho, y participaron en su elaboración más de veinte escultores, entre los que cabe destacar a Mariano Benlliure, Josep Clarà y Mateo Inurria.
-
-En primer término está la estatua ecuestre del rey, fundida en bronce, realizada por Mariano Benlliure en 1904. En el basamento central se encuentran La Paz, de Miguel Blay; La Libertad, de Aniceto Marinas; y El Progreso, de Miguel Ángel Trilles. En el zócalo figuran tres relieves de bronce.
-
-Desde el monumento central avanzan unas escalinatas hacia el estanque con cuatro leones de piedra que labraron Agapito Vallmitjana (los dos de los extremos) y Pedro Estany (los dos centrales).Debajo de sus pedestales, en bronce, cuatro sirenas, obra de Antonio Parera, Rafael Atché, Antonio Coll y Antonio Alsina.<br><br>
-
-También hay dos leones con amorcillos en cada uno de los accesos laterales al hemiciclo, obras de Francisco Javier Escudero Lozano, Bofill, Arnau y Campmany. A ambos lados del acceso central en la columnata, El Ejército, de Montserrat, y La Marina, de Mateo Inurria.
-En la cara interna, frente al estanque, aparecen representadas, en bronce, Las Ciencias, de Fuxá; La Agricultura, de Alcoverro; Las Artes, de Bilbao; y La Industria, de Clará.
+El conjunto monumental, de imponentes dimensiones (30m de alto, 86m de largo y 58m de ancho), fue elaborado por más de veinte escultores destacados, incluyendo a Mariano Benlliure, Josep Clarà y Mateo Inurria. <br><br>
+Destacan la majestuosa estatua ecuestre del rey, obra de Benlliure en 1904, junto con La Paz, La Libertad y El Progreso en el basamento central. Cuatro leones de piedra adornan las escalinatas hacia el estanque, acompañados de sirenas en bronce. <br><br>
+Dos leones con amorcillos flanquean los accesos laterales, mientras que en la columna central se destacan El Ejército y La Marina. En la cara interna, frente al estanque, se representan en bronce Las Ciencias, La Agricultura, Las Artes y La Industria, obras magistrales que enriquecen el simbolismo y la belleza de este monumento.<br><br>
 
 ## lagocristal
 
-El lago artificial que da acceso al Palacio de Cristal del Parque del Retiro de Madrid fue construido a la vez que este, que hacía las funciones de invernadero. Tiene contorno irregular y formas redondeadas. Es parte del Paisaje de la Luz, un paisaje cultural declarado Patrimonio de la Humanidad el 25 de julio de 2021.
+El lago artificial que da acceso al Palacio de Cristal del Parque del Retiro de Madrid fue construido a la vez que este, que hacía las funciones de invernadero. Es parte del Paisaje de la Luz, un paisaje cultural declarado Patrimonio de la Humanidad el 25 de julio de 2021.
 
 La superficie del estanque es de 2.900 m2 y su volumen de 3.480 m3. El surtidor que se encuentra en el centro del estanque alcanza una altura de 17 m.
 Al pie del Palacio de Cristal existe una escalera que se sumerge dentro del estanque.​
-En él se pueden encontrar varios ejemplares de plantas de la especie taxodium distichum, conocidos como cipreses de los pantanos,cuya principal característica es que parte de su tronco y de sus raíces están bajo el agua<br><br>
+En él se encuentran varios ejemplares de plantas de la especie taxodium distichum, conocidos como cipreses de los pantanos,cuya principal característica es que parte de su tronco y de sus raíces están bajo el agua<br><br>
 
 El estanque está rodeado de castaños de Indias5​ y también tiene una cascada artificial y una gruta.
-En uno de los laterales del estanque se encuentran tres dados de hormigón del escultor Agustín Ibarrola,que quedaron en ese lugar tras una exposición temporal.
+En uno de los laterales del estanque se encuentran tres dados de hormigón del escultor Agustín Ibarrola,que quedaron en ese lugar tras una exposición temporal.<br><br>
 
 ## angel
 
 Se trata de un gran monumento dedicado a la figura de Lucifer, el ángel caído.
 Recoge justo el momento de su expulsión del Paraíso, provocada por desobedecer y desafiar a Dios.
-La escultura capta el momento en el que el espíritu del mal, representado este en forma de serpiente, se introduce en su cuerpo.
+La escultura capta el momento en el que el espíritu del mal, representado este en forma de serpiente, se introduce en su cuerpo.<br><br>
 
-Fue donado por la Corona a la Villa de Madrid para su ornamentación, si bien con la condición de
-que se hiciera un bello, digno y adecuado pedestal para la escultura.
-La ejecución de este corrió a cargo del arquitecto Jareño y Alarcón, quien evaluó el proyecto, construcción, elevación y colocación de la estatua y andamios en 33.648,36 pts, siendo inaugurada en 1885 en las inmediaciones del lugar en el que se asentaba la Fábrica de Porcelana del Buen Retiro.<br><br>
+Fue donado por la Corona a la Villa de Madrid para su ornamentación. El modelo de la escultura había sido realizado en escayola por el escultor Ricardo Bellver durante su pensionado en Roma, como un homenaje al poema épico de John Milton "El Paraíso Perdido", siendo reconocido su mérito inmediatamente en esta ciudad y llegando a oídos de la Academia de Bellas Artes
+de San Fernando, que propuso al ministro de Estado que se reprodujera en mármol o bronce.<br><br>
 
-El modelo de la escultura había sido realizado en escayola por el escultor Ricardo Bellver durante su pensionado en Roma, como un homenaje al poema épico de John Milton "El Paraíso Perdido", siendo reconocido su mérito inmediatamente en esta ciudad y llegando a oídos de la Academia de Bellas Artes
-de San Fernando, que propuso al ministro de Estado que se reprodujera en mármol o bronce.
-
-El rey Alfonso XII decidió sufragar los gastos de su fundición, facilitando su presentación en la Exposición Nacional de 1878, donde obtuvo la Medalla de Primera Clase, y en la Universal de París del mismo año, siendo allí también muy elogiada. Fue inaugurada en su actual ubicación por la reina regente María Cristina de Habsburgo en 1885.
+El rey Alfonso XII decidió sufragar los gastos de su fundición, facilitando su presentación en la Exposición Nacional de 1878, donde obtuvo la Medalla de Primera Clase, y en la Universal de París del mismo año, siendo allí también muy elogiada. Fue inaugurada en su actual ubicación por la reina regente María Cristina de Habsburgo en 1885.<br><br>
 
 ## rosaleda
 
@@ -109,8 +74,8 @@ Se ubica en la zona donde el paseo de Coches se curva hacia el oeste. Tiene una 
 
 ## alcala
 
-La Puerta de Alcalá es un monumento emblemático ubicado en la ciudad de Madrid, España. Fue construida entre 1769 y 1778 por orden del rey Carlos III como una de las cinco puertas reales que daban acceso a la ciudad. Su diseño neoclásico fue realizado por el arquitecto italiano Francesco Sabatini.
+La Puerta de Alcalá es un monumento emblemático ubicado en la ciudad de Madrid, España. Fue construida entre 1769 y 1778 por orden del rey Carlos III como una de las cinco puertas reales que daban acceso a la ciudad. Su diseño neoclásico fue realizado por el arquitecto italiano Francesco Sabatini.<br><br>
 
 La estructura de la Puerta de Alcalá está compuesta por cinco arcos, tres de ellos en su parte central y dos más pequeños en los extremos. Está construida principalmente en piedra caliza y granito, con elementos ornamentales como relieves y esculturas que representan alegorías de la paz, la prosperidad y la libertad. <br><br>
 
-A lo largo de su historia, la Puerta de Alcalá ha sido testigo de importantes eventos y ha sido un símbolo de la ciudad de Madrid. Hoy en día, se encuentra en una plaza abierta al tráfico y rodeada por el tránsito continuo de vehículos y peatones. Es uno de los lugares más visitados por turistas y lugareños, que la admiran tanto de día como de noche, cuando está iluminada.
+A lo largo de su historia, la Puerta de Alcalá ha sido testigo de importantes eventos y ha sido un símbolo de la ciudad de Madrid. Hoy en día, se encuentra en una plaza abierta al tráfico y rodeada por el tránsito continuo de vehículos y peatones. Es uno de los lugares más visitados por turistas y lugareños, que la admiran tanto de día como de noche, cuando está iluminada.<br><br>
