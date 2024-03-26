@@ -6,9 +6,7 @@ h1 {
   font-weight: 400;
   font-style: normal;
 
-
 }
-
 
 @media (max-width: 768px) {
   h1 {
@@ -17,7 +15,6 @@ h1 {
   }
 
 }
-
 
 .flechas {
   z-index: 999;
@@ -39,12 +36,9 @@ h1 {
 
 }
 
-
 .flecha2 {
   transform: rotate(180deg);
 }
-
-
 
 .nab {
   z-index: 999;
@@ -103,8 +97,6 @@ h4 {
 
 }
 
-
-
 #black-overlay {
   position: fixed;
   z-index: 999;
@@ -129,22 +121,16 @@ h4 {
   .uk-button {
 
     left: 20px;
-   
-  }
-
+   }
 }
 
 @media (max-width: 768px) {
   .btnmg {
-
-    margin-top: 30px !important;
+margin-top: 30px !important;
    
   }
 
 }
-
-
-
 
 .uk-modal-full {
   z-index: 999;
@@ -172,3 +158,43 @@ a:hover svg path {
 .uk-button:hover {
   color: #FEA162; 
 }
+
+.swipe {
+  z-index: 999;
+  position: absolute;
+  width: 60px;
+  left: 45%;
+  top: 30%
+}
+
+@media (max-width: 768px) {
+  .swipe {
+
+    left:35%;
+   }
+}
+
+a-scene img.visible {
+  display: block;
+}
+
+
+.hand-icon {
+  position: relative;
+  background-image: url('https://i.postimg.cc/8556gm60/hand.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+animation: spin 2s infinite;
+  transform-origin: 50% 50%; /* Ajustar el punto de origen de la rotación */
+}
+
+@keyframes spin {
+  0% { transform: rotate(30deg) translateX(20px); }
+  50% { transform: rotate(-15deg) translateX(-20px); }
+  100% { transform: rotate(0deg) translateX(20px); }
+}
+
+
+
