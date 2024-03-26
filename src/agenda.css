@@ -13,8 +13,8 @@ h1 {
 
   @media (min-width: 1200px) {
     body {
-        padding-left: 200px;
-        padding-right: 200px;
+        padding-left: 100px;
+        padding-right: 100px;
     }
 }
 
@@ -45,6 +45,12 @@ h1 {
     border: none; 
     margin-left: 40px;
    
+    
+}
+
+.text-container {
+    max-width: 450px; /* Ajusta este valor según tus necesidades */
+    
     
 }
 
