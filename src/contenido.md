@@ -2,30 +2,30 @@
 
 El Estanque Grande del Buen Retiro, conocido popularmente como el Estanque del Retiro, es una extensión de agua de origen artificial, que se encuentra en el Parque del Retiro, en la ciudad española de Madrid.<br><br>
 Fue creado en la primera mitad del siglo xvii como uno de los elementos paisajísticos más relevantes del Buen Retiro, una antigua posesión de la Corona española surgida durante el reinado de Felipe IV (1605-1665). Su titularidad corresponde, desde el año 1868, al Ayuntamiento de Madrid, al igual que los espacios ajardinados sobre los que se conformó el parque público actual.<br><br>
-Con una superficie de 37 240 m² y un volumen de agua de 55 150 m³, dispone de un embarcadero que posibilita la navegación recreativa y la celebración de competiciones de remo y piragüismo. En sus orillas se encuentran el Monumento a Alfonso XII y la Fuente Egipcia.
+Con una superficie de 37 240 m² y un volumen de agua de 55 150 m³, dispone de un embarcadero que posibilita la navegación recreativa y la celebración de competiciones de remo y piragüismo. En sus orillas se encuentran el Monumento a Alfonso XII y la Fuente Egipcia.<br><br>
 
 ## buenretiro
 
 Construido en la primera mitad del siglo xvii dentro del proyecto paisajístico desarrollado
 para el Palacio del Buen Retiro, una antigua posesión real creada por el conde-duque de Olivares (1587-1645)
-para disfrute de Felipe IV (1605-1665),​ de quien era su valido.
+para disfrute de Felipe IV (1605-1665),​ de quien era su valido.<br><br>
 Su uso como parque urbano se remonta a 1767, año en el que Carlos III (1716-1788) permitió la entrada del público a efectos recreativos3​ y, ya definitivamente, a partir de 1868, cuando quedó bajo latitularidad del Ayuntamiento de Madrid, cuenta Con 125 hectáreas y más de 15 000 árboles.<br><br>
 Entre sus elementos arquitectónicos e históricos más importantes se encuentran: el Estanque Grande,
 que ofrece varias actividades, como barcas de remo, barco y aula solar y la Escuela Municipal de Piragüismo,dirigida a niños y jóvenes entre 7 y 17 años; el Palacio de Velázquez y el Palacio de Cristal,ambos utilizados actualmente como salas de exposiciones del Museo Reina Sofía.
 El Palacio de Cristal, pabellón romántico creado para dar cabida a una muestra de plantas exóticas
-en la Exposición de Filipinas de 1887,es uno de los principales ejemplos de la arquitectura del hierro en España.
+en la Exposición de Filipinas de 1887,es uno de los principales ejemplos de la arquitectura del hierro en España.<br><br>
 
 ## entrada
 
 En 1865, se abre en El Retiro una nueva calle que une la Puerta de Alcalá con la Ronda de Atocha y la estación de ferrocarril allí existente desde 1851. En la margen Oeste de la calle, se crea así un nuevo barrio en el que hoy encontramos el Museo del Prado, el Botánico, la Academia Española de la Lengua, el Casón del Buen Retiro y la Bolsa, además de otros edificios oficiales o particulares.<br><br>
 Al Este, se construyó una verja de hierro que separó la calle de los jardines. Esta calle, de nombre inicial Calle de Granada, es la actual Calle de Alfonso XII.
-Se inicia así la construcción de una reja que, junto a las diferentes puertas que se le van añadiendo a lo largo de este siglo y medio, delimitará y cerrará El Retiro.
+Se inicia así la construcción de una reja que, junto a las diferentes puertas que se le van añadiendo a lo largo de este siglo y medio, delimitará y cerrará El Retiro.<br><br>
 
 ## cristal
 
-El Palacio de Cristal es una estructura emblemática ubicada en el corazón del Parque del Retiro en Madrid, España. Su historia se remonta a finales del siglo XIX, cuando fue construido como parte de la Exposición de las Islas Filipinas, celebrada en 1887.
+El Palacio de Cristal es una estructura emblemática ubicada en el corazón del Parque del Retiro en Madrid, España. Su historia se remonta a finales del siglo XIX, cuando fue construido como parte de la Exposición de las Islas Filipinas, celebrada en 1887.<br><br>
 
-Diseñado por el arquitecto español Ricardo Velázquez Bosco, el Palacio de Cristal fue concebido como un pabellón para albergar una muestra de flora y fauna de Filipinas, que en ese momento eran territorios coloniales de España. Está inspirado en el Crystal Palace de Londres, diseñado por Joseph Paxton, aunque a una escala mucho más pequeña.
+Diseñado por el arquitecto español Ricardo Velázquez Bosco, el Palacio de Cristal fue concebido como un pabellón para albergar una muestra de flora y fauna de Filipinas, que en ese momento eran territorios coloniales de España. Está inspirado en el Crystal Palace de Londres, diseñado por Joseph Paxton, aunque a una escala mucho más pequeña.<br><br>
 
 La estructura del Palacio de Cristal está compuesta principalmente por hierro y cristal, lo que le confiere su aspecto característico y transparente. Destaca por su elegancia neoclásica y su diseño cuidadosamente elaborado, que incluye una impresionante cúpula de cristal.<br><br>
 
@@ -44,7 +44,7 @@ Dos leones con amorcillos flanquean los accesos laterales, mientras que en la co
 
 ## lagocristal
 
-El lago artificial que da acceso al Palacio de Cristal del Parque del Retiro de Madrid fue construido a la vez que este, que hacía las funciones de invernadero. Es parte del Paisaje de la Luz, un paisaje cultural declarado Patrimonio de la Humanidad el 25 de julio de 2021.
+El lago artificial que da acceso al Palacio de Cristal del Parque del Retiro de Madrid fue construido a la vez que este, que hacía las funciones de invernadero. Es parte del Paisaje de la Luz, un paisaje cultural declarado Patrimonio de la Humanidad el 25 de julio de 2021.<br><br>
 
 La superficie del estanque es de 2.900 m2 y su volumen de 3.480 m3. El surtidor que se encuentra en el centro del estanque alcanza una altura de 17 m.
 Al pie del Palacio de Cristal existe una escalera que se sumerge dentro del estanque.​
@@ -66,11 +66,11 @@ El rey Alfonso XII decidió sufragar los gastos de su fundición, facilitando su
 
 ## rosaleda
 
-La Rosaleda del Retiro fue diseñada en 1915 por el jardinero Mayor de la Villa, Cecilio Rodríguez, a encargo del alcalde de Madrid Carlos Prast y Rodríguez del Llano.​ Rodríguez se inspiró en la Rosaleda de Bagatelle en el Bois de Boulogne de París para crear la rosaleda, que fue la zona ajardinada más importante que diseñó.​ Se plantaron rosales que llegaron de varios jardines europeos y en el momento de su creación, recibió el nombre de Rosería.
+La Rosaleda del Retiro fue diseñada en 1915 por el jardinero Mayor de la Villa, Cecilio Rodríguez, a encargo del alcalde de Madrid Carlos Prast y Rodríguez del Llano.​ Rodríguez se inspiró en la Rosaleda de Bagatelle en el Bois de Boulogne de París para crear la rosaleda, que fue la zona ajardinada más importante que diseñó.​ Se plantaron rosales que llegaron de varios jardines europeos y en el momento de su creación, recibió el nombre de Rosería.<br><br>
 
 En el paraje en el que se ubicó se encontraba un gran invernadero que había pertenecido al marqués de Salamanca. Anteriormente, había un estanque que se convertía en pista de hielo en invierno. La rosaleda fue destruida durante la guerra civil española, siendo replantado 4.000 rosales en 1941. Entre 2001 y 2006, fue completamente restaurada, reponiéndose los rosales envejecidos además de reparar las estructuras metálicas existentes.<br><br>
 
-Se ubica en la zona donde el paseo de Coches se curva hacia el oeste. Tiene una configuración es simétrica, de planta elíptica.​ Cuenta con un par de fuentes en el diámetro mayor de dicha elipse, además de una red de caminos alrededor de la que se distribuyen los parterres.  La rodean diversos setos de boj y cuenta con pérgolas metálicas en forma de arcos.​ Tras su remodelación de 2006, la rosaleda cuenta con 5.570 ejemplares de 130 especies diferentes de rosales bajos y trepadores.​ Sus rosas florecen de mayo a junio.
+Se ubica en la zona donde el paseo de Coches se curva hacia el oeste. Tiene una configuración es simétrica, de planta elíptica.​ Cuenta con un par de fuentes en el diámetro mayor de dicha elipse, además de una red de caminos alrededor de la que se distribuyen los parterres.  La rodean diversos setos de boj y cuenta con pérgolas metálicas en forma de arcos.​ Tras su remodelación de 2006, la rosaleda cuenta con 5.570 ejemplares de 130 especies diferentes de rosales bajos y trepadores.​ Sus rosas florecen de mayo a junio.<br><br>
 
 ## alcala
 
