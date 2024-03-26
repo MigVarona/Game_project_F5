@@ -3,92 +3,14 @@
 <head>
 <meta charset="utf-8">
 <title>Registro de usuarios</title>
-<!-- Latest compiled and minified CSS -->
-<!-- <link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-	integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-	crossorigin="anonymous"> -->
+
 	<link rel="stylesheet" href="/src/output.css">
 	<script src="https://cdn.tailwindcss.com"></script>
 
-<!-- Optional theme -->
-<!-- <link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
-	integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
-	crossorigin="anonymous"> -->
+
 </head>
 <body>
 
-
-	<!-- <nav class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed"
-					data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-					aria-controls="navbar">
-					<span class="sr-only">Toggle navigation</span> <span
-						class="icon-bar"></span> <span class="icon-bar"></span> <span
-						class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#" th:href="@{/}">Registro y
-					inicio de sesión</a>
-			</div>
-		</div>
-	</nav>
-
-	<br>
-	<br>
-
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6 col-md-offset-3">
-				<div th:if=${param.exito}>
-					<div class="alert alert-info">Se ha registrado exitosamente a
-						la aplicación</div>
-				</div>
-
-				<h1 >Regístrate</h1>
-				<form th:action="@{/registro}" method="post" th:object="${usuario}">
-					<div class="form-group">
-						<label class="control-label" for="nombre">Nombre : </label> <input
-							id="nombre" type="text" class="form-control" th:field="*{nombre}"
-							required autofocus="autofocus">
-					</div>
-
-					<div class="form-group">
-						<label class="control-label" for="apellido">Apellido : </label> <input
-							id="apellido" class="form-control" th:field="*{apellido}"
-							required autofocus="autofocus">
-					</div>
-
-					<div class="form-group">
-						<label class="control-label" for="email">Email : </label> <input
-							id="email" type="email" class="form-control" th:field="*{email}"
-							required autofocus="autofocus">
-					</div>
-
-					<div class="form-group">
-						<label class="control-label" for="password">Password : </label> <input
-							type="password" id="password" class="form-control" th:field="*{password}"
-							required autofocus="autofocus">
-					</div>
-
-					<div class="form-group">
-						<button type="submit" class="btn btn-success">Registrar</button>
-						<span>Si estas registrado <a th:href="@{/login}">inicia sesión aqui</a></span>
-					</div>
-				</form>
-
-			</div>
-		</div>
-	</div> -->
-
-
-	<!-- Latest compiled and minified JavaScript -->
-	<!-- <script
-		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-		crossorigin="anonymous"></script> -->
 		<section>
 			<div class="px-4 py-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-24">
 				
@@ -141,8 +63,8 @@
 					</div>
 				</form>
 				  </div>
-				  <div class="order-first hidden w-full lg:block">
-					<img class="object-cover h-full bg-cover rounded-l-lg" src="../../../../../../../src/assets/angel.webp">
+				  <div class="order-first w-full lg:block">
+					<img class="object-cover h-full bg-cover rounded-l-lg" src="/Back/registro-usuarios-spring-master/registro-usuarios-spring-security/src/main/resources/static/angel.webp">
 				  </div>
 				</div>
 			  </div>
