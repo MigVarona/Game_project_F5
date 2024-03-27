@@ -49,8 +49,8 @@
     
       <section class="weather-container sm:gap-2 text-white gap-4 flex items-center justify-between">
     <div class="section__content">
-        <div class="weather__temp" id="js_w_temp"></div>
-        <div class="weather__icon" id="js_w_icon"></div>
+        <div class="visible weather__temp" id="js_w_temp"></div>
+        <div class="visible weather__icon" id="js_w_icon"></div>
     </div>
 </section>
   
@@ -87,28 +87,27 @@
 
   </a-scene>
 
-<script src="apiweather.js"></script>
-<script src="apitiempo.js"></script>
-<script>
-  async function showWeather() {
-  const weatherData = await fetchData("Madrid");
-
-  if (weatherData) {
-    const weatherIcon = weatherData.weather.icon; 
-    const temperature = weatherData.temperature; 
-
-    // Concatena la ruta base de los iconos con el nombre del icono proporcionado por la API
-    const iconUrl = `https://weather-api138.p.rapidapi.com/weather_icons/${weatherIcon}.png`;
-
-    // Asigna la ruta completa del icono al atributo src del elemento img
-    document.getElementById("weather-icon").src = iconUrl;
-    document.getElementById("temperature").textContent = `Temperature: ${temperature}°C`;
-  } else {
-    console.error("No se pudo obtener el clima.");
+  <script src="apitiempo.js"></script>
+  <script>
+    async function showWeather() {
+    const weatherData = await fetchData("Madrid");
+  
+    if (weatherData) {
+      const weatherIcon = weatherData.weather.icon; 
+      const temperature = weatherData.temperature; 
+  
+      // Concatena la ruta base de los iconos con el nombre del icono proporcionado por la API
+      const iconUrl = `img/${weatherIcon}.png`; // La ruta relativa al icono
+  
+      // Asigna la ruta completa del icono al atributo src del elemento img
+      document.getElementById("js_w_icon").innerHTML = `<img src="${iconUrl}" alt="Weather Icon">`;
+      document.getElementById("js_w_temp").textContent = `Temperature: ${temperature}°C`;
+    } else {
+      console.error("No se pudo obtener el clima.");
+    }
   }
-}
-  window.addEventListener("DOMContentLoaded", showWeather);
-</script>
+    window.addEventListener("DOMContentLoaded", showWeather);
+  </script>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>

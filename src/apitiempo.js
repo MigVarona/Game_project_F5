@@ -7,6 +7,7 @@ app.cargaDatos = function(){
         url: app.url,
         success: function(data) {
             app.datos = data;
+            console.log("Datos del clima:", app.datos); // Verificar los datos recibidos
             app.procesaDatos();
         },
         error: function() {
@@ -29,74 +30,74 @@ app.obtenIcono = function(weatherIcon) {
         case "01d":
             icon = {
                 class: "wi-day-sunny",
-                url: "http://openweathermap.org/img/wn/01d.png"
+                url: "img/01d.png"
             };
             break;
         case "01n":
             icon = {
                 class: "wi-night-clear",
-                url: "http://openweathermap.org/img/wn/01n.png"
+                url: "img/01n.png"
             };
             break;
         case "02d":
             icon = {
                 class: "wi-day-cloudy",
-                url: "http://openweathermap.org/img/wn/02d.png"
+                url: "img/02d.png"
             };
             break;
         case "02n":
             icon = {
                 class: "wi-night-alt-cloudy",
-                url: "http://openweathermap.org/img/wn/02n.png"
+                url: "img/02n.png"
             };
             break;
         case "03d":
         case "03n":
             icon = {
                 class: "wi-cloud",
-                url: "http://openweathermap.org/img/wn/03d.png"
+                url: "img/03d.png"
             };
             break;
         case "04d":
         case "04n":
             icon = {
                 class: "wi-cloudy",
-                url: "http://openweathermap.org/img/wn/04d.png"
+                url: "img/04d.png"
             };
             break;
         case "09d":
         case "09n":
             icon = {
                 class: "wi-showers",
-                url: "http://openweathermap.org/img/wn/09d@2x.png"
+                url: "img/09d.png"
             };
             break;
         case "10d":
         case "10n":
             icon = {
                 class: "wi-rain",
-                url: "http://openweathermap.org/img/wn/10d.png"
+                url: "img/10d.png"
             };
             break;
         case "11d":
         case "11n":
             icon = {
                 class: "wi-thunderstorm",
-                url: "http://openweathermap.org/img/wn/11d.png"
+                url: "img/11d.png"
             };
             break;
         case "13d":
         case "13n":
             icon = {
                 class: "wi-snow",
-                url: "http://openweathermap.org/img/wn/13d.png"
+                url: "img/13d.png"
             };
             break;
         case "50d":
         case "50n":
             icon = {
                 class: "wi-fog",
-                url: "http://openweathermap.org/img/wn/50d.png"
+                url: "img/50d.png"
             };
             break;
         default:
@@ -109,13 +110,11 @@ app.obtenIcono = function(weatherIcon) {
     return icon;
 }
 
-
 app.muestra = function(){
-    $('#js_w_temp').html("<p class='weather_temperature'>" + app.temperatura + "º</p>");
-    $('#js_w_icon').html("<i class='wi " + app.icono.class + "'></i>");
+    $('#js_w_temp').html("<p class='weather_temperature'>" + Math.round(app.temperatura) + "º</p>");
+    console.log("Ruta del icono:", app.icono.url); // Verificar la ruta del icono
+    $('#js_w_icon').html("<img src='" + app.icono.url + "' alt='Weather Icon'>");
 }
-
-
 
 $(document).ready(function() {
     app.cargaDatos();
