@@ -35,7 +35,7 @@
 
     <video id="video" loop muted autoplay crossorigin="anonymous" webkit-playsinline="true" playsinline="true"
       onloadedmetadata="this.currentTime=0">
-      <source type="video/mp4" src="assets/videos editados 360/puerta_alcala.webm">
+     <source type="video/mp4" src="assets/videos editados 360/puerta_alcala.webm">
       <source type="video/mp4" src="assets/videos editados 360/puerta_alcala.mp4">
     </video>
 
@@ -88,26 +88,7 @@
   </a-scene>
 
   <script src="apitiempo.js"></script>
-  <script>
-    async function showWeather() {
-    const weatherData = await fetchData("Madrid");
   
-    if (weatherData) {
-      const weatherIcon = weatherData.weather.icon; 
-      const temperature = weatherData.temperature; 
-  
-      // Concatena la ruta base de los iconos con el nombre del icono proporcionado por la API
-      const iconUrl = `img/${weatherIcon}.png`; // La ruta relativa al icono
-  
-      // Asigna la ruta completa del icono al atributo src del elemento img
-      document.getElementById("js_w_icon").innerHTML = `<img src="${iconUrl}" alt="Weather Icon">`;
-      document.getElementById("js_w_temp").textContent = `Temperature: ${temperature}°C`;
-    } else {
-      console.error("No se pudo obtener el clima.");
-    }
-  }
-    window.addEventListener("DOMContentLoaded", showWeather);
-  </script>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
