@@ -19,8 +19,9 @@ h1 {
 }
 
 .location {
-    width: 1.2rem;
-    margin-top: 0.6rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    
 }
 
 .right-container {
@@ -52,7 +53,7 @@ h1 {
 }
 
 .text-container {
-    max-width: 550px; 
+    max-width: 400px; 
     
     }
 
