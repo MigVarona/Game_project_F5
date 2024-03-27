@@ -2,19 +2,27 @@ var app = {};
 app.apikey = "c4a4b2a5e6c2b906f280ae5147dceb6f";
 app.url = "http://api.openweathermap.org/data/2.5/weather?q=Madrid&APPID=" + app.apikey + "&units=metric";
 
-app.cargaDatos = function(){
-    $.ajax({
-        url: app.url,
-        success: function(data) {
-            app.datos = data;
-            console.log("Datos del clima:", app.datos); // Verificar los datos recibidos
-            app.procesaDatos();
-        },
-        error: function() {
-            alert("¡Ups! No puedo obtener información de la API");
-        }
-    });
-}
+app.fetchData = async function() {
+  try {
+    const response = await fetch(app.url);
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error("Error al obtener datos del clima:", error);
+    return null;
+  }
+};
+
+app.cargaDatos = async function() {
+  const data = await app.fetchData();
+  if (data) {
+    app.datos = data;
+    console.log("Datos del clima:", app.datos);
+    app.procesaDatos();
+  } else {
+    alert("¡Ups! No puedo obtener información de la API");
+  }
+};
 
 app.procesaDatos = function(){
     app.condicionNombre = app.datos.weather[0].main;
@@ -22,7 +30,7 @@ app.procesaDatos = function(){
     var condicionIcono = app.datos.weather[0].icon;
     app.icono = app.obtenIcono(condicionIcono);
     app.muestra();
-}
+};
 
 app.obtenIcono = function(weatherIcon) {
     var icon;
@@ -108,13 +116,13 @@ app.obtenIcono = function(weatherIcon) {
             break;
     }
     return icon;
-}
+};
 
 app.muestra = function(){
     $('#js_w_temp').html("<p class='weather_temperature'>" + Math.round(app.temperatura) + "º</p>");
     console.log("Ruta del icono:", app.icono.url); // Verificar la ruta del icono
     $('#js_w_icon').html("<img src='" + app.icono.url + "' alt='Weather Icon'>");
-}
+};
 
 $(document).ready(function() {
     app.cargaDatos();
