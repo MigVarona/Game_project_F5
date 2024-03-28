@@ -11,12 +11,7 @@ h1 {
 
 
 
-  @media (min-width: 1200px) {
-    body {
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-}
+
 
 .location {
     width: 0.8rem;
@@ -71,7 +66,12 @@ button {
   }
 
 
-
+  @media (max-width: 1000px) {
+    .mov {
+     display: none;
+    }
+  
+  }
 
 
   
