@@ -76,7 +76,7 @@ button {
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
     .mov {
         display: none; 
     }
@@ -86,10 +86,20 @@ button {
     }
 }
 
-
+@media (max-width: 850px) {
+    .actividades p {
+        font-size: 10px; 
+    }
+}
 
   
  
+@media (max-width: 700px) {
+    .mov1 {
+        display: none;
+    }
+}
+
 
 
 
