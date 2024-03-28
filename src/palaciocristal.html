@@ -52,6 +52,9 @@
       <h1 class=" mt-6 nab">Retiro 360</h1>
     </a>
     <h2 class=""> Palacio de Cristal </h2>
+    <a href="agenda.html">
+      <h4 class="mt-6">Actividades</h4>
+    </a>
     <div class="flechas sm:gap-2 text-white gap-4 flex items-center justify-between">
 
       <a href="lagocristal.html">
@@ -61,7 +64,7 @@
             fill="white"></path>
         </svg>
       </a>
-<a href="lagocristal.html">
+      <a href="lagocristal.html">
         <h3 class="text-white">LAGO PALACIO</h3>
       </a>
 
@@ -75,7 +78,7 @@
             fill="white"></path>
         </svg>
       </a>
-</div>
+    </div>
     <a class="uk-button uk-button-default" href="#modal-overflow" uk-toggle>Conoce +</a>
     <div id="modal-overflow" style="opacity: 0.8;" uk-modal>
       <div id="cristal" class="uk-modal-dialog">
@@ -97,7 +100,7 @@
               var start = data.indexOf('## cristal');
               var end = data.indexOf('##', start + 1);
               var contenido = data.substring(start, end != -1 ? end : data.length).trim();
-              
+
               contenido = contenido.replace(/^## cristal\s*/gm, '');
               $('#contenido-cristal').html(contenido);
             }
