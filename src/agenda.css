@@ -66,12 +66,26 @@ button {
   }
 
 
-  @media (max-width: 1000px) {
+
+@media (min-width: 1001px) {
     .mov {
-     display: none;
+        display: flex;
     }
   
-  }
+    
+}
+
+
+@media (max-width: 1000px) {
+    .mov {
+        display: none; 
+    }
+  
+    .block {
+        display: block; 
+    }
+}
+
 
 
   
