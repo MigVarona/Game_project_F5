@@ -97,6 +97,7 @@ button {
 @media (max-width: 700px) {
     .actividades p {
         font-size: 8px; 
+        margin-top: 20px;
         
     }
 }
